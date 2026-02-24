@@ -1,0 +1,21 @@
+C:\Users\user\Desktop\Project C#.net\C.nen-project\c#.net pro\DotNet_5335_1916\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Project C#.net\C.nen-project\c#.net pro\DotNet_5335_1916\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Project C#.net\C.nen-project\c#.net pro\DotNet_5335_1916\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\user\Desktop\Project C#.net\C.nen-project\c#.net pro\DotNet_5335_1916\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Project C#.net\C.nen-project\c#.net pro\DotNet_5335_1916\DalTest\obj\Debug\DalTest.sourcelink.json
+E:\DotNet_5335_1916\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+E:\DotNet_5335_1916\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet_5335_1916\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+E:\DotNet_5335_1916\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+E:\DotNet_5335_1916\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+E:\DotNet_5335_1916\bin\DalTest.exe
+E:\DotNet_5335_1916\bin\DalTest.deps.json
+E:\DotNet_5335_1916\bin\DalTest.runtimeconfig.json
+E:\DotNet_5335_1916\bin\DalTest.dll
+E:\DotNet_5335_1916\bin\DalTest.pdb
+E:\DotNet_5335_1916\DalTest\obj\Debug\DalTest.csproj.Up2Date
+E:\DotNet_5335_1916\DalTest\obj\Debug\DalTest.dll
+E:\DotNet_5335_1916\DalTest\obj\Debug\refint\DalTest.dll
+E:\DotNet_5335_1916\DalTest\obj\Debug\DalTest.pdb
+E:\DotNet_5335_1916\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+E:\DotNet_5335_1916\DalTest\obj\Debug\ref\DalTest.dll

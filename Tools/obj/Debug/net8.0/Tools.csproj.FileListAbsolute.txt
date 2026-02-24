@@ -1,0 +1,11 @@
+M:\DotNet_5335_1916+exceptions\Tools\bin\Debug\net8.0\Tools.deps.json
+M:\DotNet_5335_1916+exceptions\Tools\bin\Debug\net8.0\Tools.dll
+M:\DotNet_5335_1916+exceptions\Tools\bin\Debug\net8.0\Tools.pdb
+M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\Tools.GeneratedMSBuildEditorConfig.editorconfig
+M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\Tools.AssemblyInfoInputs.cache
+M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\Tools.AssemblyInfo.cs
+M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\Tools.csproj.CoreCompileInputs.cache
+M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\Tools.dll
+M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\refint\Tools.dll
+M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\Tools.pdb
+M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\ref\Tools.dll

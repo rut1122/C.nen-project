@@ -1,0 +1,13 @@
+E:\DotNet_5335_1916\bin\DalList.deps.json
+E:\DotNet_5335_1916\bin\DalList.dll
+E:\DotNet_5335_1916\bin\DalList.pdb
+E:\DotNet_5335_1916\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+E:\DotNet_5335_1916\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet_5335_1916\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+E:\DotNet_5335_1916\DalList\obj\Debug\DalList.AssemblyInfo.cs
+E:\DotNet_5335_1916\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+E:\DotNet_5335_1916\DalList\obj\Debug\DalList.csproj.Up2Date
+E:\DotNet_5335_1916\DalList\obj\Debug\DalList.dll
+E:\DotNet_5335_1916\DalList\obj\Debug\refint\DalList.dll
+E:\DotNet_5335_1916\DalList\obj\Debug\DalList.pdb
+E:\DotNet_5335_1916\DalList\obj\Debug\ref\DalList.dll
