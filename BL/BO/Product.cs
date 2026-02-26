@@ -8,21 +8,15 @@ namespace BL.BO
 {
     public class Product
     {
-        public int id;
-        public string productName;
-        public Category? productCategory;
-        public double price;
-        public int amount;
+        public int id { get; set; }
+        public string productName { get; set; }
+        public Category? productCategory { get; set; }
+        public double price { get; set; }
+        public int amount { get; set; }
 
-        public Product(int id,string productName, Category? productCategory, double price, int amount)
-        { 
-            this.id = id;
-            this.productName = productName;
-            this.productCategory = productCategory;
-            this.price = price;
-            this.amount = amount;
-        
-        }
+        public override string ToString() => ToStringProperty();
+    
+
 
     }
 

@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace BL.BlApi
 {
-    public interface IProduct<T>
+    public interface IProduct
     {
-        int Create(T item);
-        T? Read(int id);
-        T? Read(Func<T, bool> filter);
-        IEnumerable<T?> ReadAll(Func<T, bool>? filter = null);
-        void Update(T item);
+        int Create(BO.Product item);
+        BO.Product? Read(int id);
+        BO.Product? Read(Func<BO.Product, bool> filter);
+        IEnumerable<BO.Product?> ReadAll(Func<BO.Product, bool>? filter = null);
+        void Update(BO.Product item);
         void Delete(int id);
         public void IsValid(ProductInOrder product, bool favorite);
     }

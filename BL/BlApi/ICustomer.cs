@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BL.BlApi
+namespace BlApi
 {
-    public interface ICustomer<T>
+    public interface ICustomer
     {
-        int Create(T item); 
-        T? Read(int id); 
-        T? Read(Func<T, bool> filter); 
-        IEnumerable<T?> ReadAll(Func<T, bool>? filter = null); 
-        void Update(T item); 
+        int Create(BO.Customer item);
+        BO.Customer? Read(int id); 
+        BO.Customer? Read(Func<BO.Customer, bool> filter); 
+        IEnumerable<BO.Customer?> ReadAll(Func<BO.Customer, bool>? filter = null); 
+        void Update(BO.Customer item); 
         void Delete(int id); 
-        public bool IsCustomerExist();
+        public bool IsCustomerExist(int id);
     }
 }

@@ -8,19 +8,12 @@ namespace BL.BO
 {
     public class SaleInProduct
     {
-        public int id;
-        public int amount;
-        public double price;
-        public bool forAllCustomers;
+        public int id {  get; set; }
+        public int amount { get; set; }
+        public double price { get; set; }
+        public bool forAllCustomers { get; set; }
 
-        public SaleInProduct(int id,int amount, double price, bool forAllCustomers)
-
-        {
-            this.id = id;
-            this.amount = amount;
-            this.price = price;
-            this.forAllCustomers = forAllCustomers;
-        }
+        public override string ToString() => this.ToStringProperty();
 
     }
 }

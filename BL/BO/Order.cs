@@ -8,16 +8,12 @@ namespace BL.BO
 {
     public class Order
     {
-        public bool favorite;
-        public List<ProductInOrder> products;
-        public double finalPrice;
+        public bool favorite { get; set; }
+        public List<ProductInOrder> products { get; set; }
+        public double finalPrice { get; set; }
 
 
-        public Order(bool favorite, List<ProductInOrder> products, double finalPrice)
-        {
-            this.favorite = favorite;
-            this.products = products;
-            this.finalPrice = finalPrice;
-        }
+        public override string ToString() => ToStringProperty();
+     
     }
 }

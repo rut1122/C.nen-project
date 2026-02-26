@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace BL.BlApi
 {
-    public interface Isale<T>
+    public interface ISale
     {
-        int Create(T item);
-        T? Read(int id);
-        T? Read(Func<T, bool> filter);
-        IEnumerable<T?> ReadAll(Func<T, bool>? filter = null);
-        void Update(T item);
+        int Create(BO.Sale item);
+        BO.Sale? Read(int id);
+        BO.Sale? Read(Func<BO.Sale ,bool> filter);
+        IEnumerable<BO.Sale?> ReadAll(Func<BO.Product, bool>? filter = null);
+        void Update(BO.Sale item);
         void Delete(int id);
 
     }

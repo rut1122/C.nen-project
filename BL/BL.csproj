@@ -7,4 +7,12 @@
 		<RootNamespace></RootNamespace>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\DalFacade\DalFacade.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="BlImplementation\" />
+	</ItemGroup>
+
 </Project>
