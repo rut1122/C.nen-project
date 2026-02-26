@@ -8,24 +8,15 @@ namespace BL.BO
 {
     public class Sale
     {
-        public int id;
-        public int productId;
-        public int RequiredAmount;
-        public double salePrice;
-        public bool onlyClub;
-        public DateTime beginSale;
-        public DateTime? endSale;
+        public int id { get; set; }
+        public int productId { get; set; }
+        public int RequiredAmount { get; set; }
+        public double salePrice { get; set; }
+        public bool onlyClub { get; set; }
+        public DateTime beginSale { get; set; }
+        public DateTime? endSale { get; set; }
 
-        public Sale(int id,int productId, int RequiredAmount, double salePrice, bool onlyClub
-           DateTime beginSale, DateTime? endSale)
-        {
-            this.id = id;
-            this.productId = productId;
-            this.RequiredAmount = RequiredAmount;
-            this.salePrice = salePrice;
-            this.onlyClub = onlyClub;
-            this.beginSale = beginSale;
-            this.endSale = endSale;
-        }
+        public override string ToString() => ToStringProperty();
+
     }
 }
