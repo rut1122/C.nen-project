@@ -15,5 +15,11 @@ namespace BL.BO
 
         public override string ToString() => ToStringProperty();
      
+        public Order(bool favorite, List<ProductInOrder> products, double finalPrice)
+        {
+            this.favorite = favorite;
+            this.products = products;
+            this.finalPrice = finalPrice;
+        }
     }
 }

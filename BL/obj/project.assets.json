@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotNet_5335_1916+exceptions\\BL\\BL.csproj",
+      "projectUniqueName": "E:\\DotNet_5335_1916+exceptions\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "D:\\DotNet_5335_1916+exceptions\\BL\\BL.csproj",
+      "projectPath": "E:\\DotNet_5335_1916+exceptions\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "D:\\DotNet_5335_1916+exceptions\\BL\\obj\\",
+      "outputPath": "E:\\DotNet_5335_1916+exceptions\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj": {
-              "projectPath": "D:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj"
+            "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj": {
+              "projectPath": "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj"
             }
           }
         }
