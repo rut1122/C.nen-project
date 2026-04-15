@@ -39,7 +39,7 @@ namespace BO
         {
             return new BO.Customer(customer.id, customer.name, customer.adress, customer.phone);
         }
-        public static DO.Customer ConvertToCustomerDO(Customer customer)
+        public static DO.Customer ConvertCustomerToDO(Customer customer)
         {
             return new DO.Customer(customer.Id, customer.Name, customer.Adress, customer.Phone);
         }

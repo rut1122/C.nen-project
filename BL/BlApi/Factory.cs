@@ -1,12 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BlApi
 {
-    internal class Factory
+    public static class Factory
     {
+        public static IBl Get
+        {
+            get
+            {
+                return new BlImplementation.Bl();
+            }
+        }
+          
+        
+
+        
     }
 }

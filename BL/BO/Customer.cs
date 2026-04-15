@@ -8,19 +8,19 @@ namespace BO
 {
     public class Customer
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public string? adress { get; set; }
-        public int phone { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string? Adress { get; set; }
+        public int Phone { get; set; }
 
 
         public override string ToString() => this.ToStringProperty();
         public Customer(int id, string name, string? adress, int phone)
         {
-            this.id = id;
-            this.name = name;
-            this.adress = adress;
-            this.phone = phone;
+            this.Id = id;
+            this.Name = name;
+            this.Adress = adress;
+            this.Phone = phone;
         }
-    }   
+    }
 }
