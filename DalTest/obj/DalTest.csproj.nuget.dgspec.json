@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalTest\\DalTest.csproj": {}
+    "E:\\DotNet_5335_1916+exceptions\\DalTest\\DalTest.csproj": {}
   },
   "projects": {
-    "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj": {
+    "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\ruthkober\\.nuget\\packages\\",
-        "outputPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalFacade\\obj\\",
+        "projectPath": "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNet_5335_1916+exceptions\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ruthkober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,43 +60,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj": {
+    "E:\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj",
+        "projectUniqueName": "E:\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj",
         "projectName": "DalList",
-        "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\ruthkober\\.nuget\\packages\\",
-        "outputPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalList\\obj\\",
+        "projectPath": "E:\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNet_5335_1916+exceptions\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ruthkober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -112,11 +98,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj"
+              "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj"
               },
-              "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj": {
-                "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj"
+              "E:\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj": {
+                "projectPath": "E:\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj"
               }
             }
           }
@@ -146,43 +132,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalTest\\DalTest.csproj": {
+    "E:\\DotNet_5335_1916+exceptions\\DalTest\\DalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalTest\\DalTest.csproj",
+        "projectUniqueName": "E:\\DotNet_5335_1916+exceptions\\DalTest\\DalTest.csproj",
         "projectName": "DalTest",
-        "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalTest\\DalTest.csproj",
-        "packagesPath": "C:\\Users\\ruthkober\\.nuget\\packages\\",
-        "outputPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalTest\\obj\\",
+        "projectPath": "E:\\DotNet_5335_1916+exceptions\\DalTest\\DalTest.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNet_5335_1916+exceptions\\DalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ruthkober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -198,14 +170,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj": {
-                "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj"
+              "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj": {
+                "projectPath": "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj"
               },
-              "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj": {
-                "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj"
+              "E:\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj": {
+                "projectPath": "E:\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj"
               },
-              "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj": {
-                "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj"
+              "E:\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj": {
+                "projectPath": "E:\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj"
               }
             }
           }
@@ -235,47 +207,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj": {
+    "E:\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj",
+        "projectUniqueName": "E:\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj",
         "projectName": "Tools",
-        "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj",
-        "packagesPath": "C:\\Users\\ruthkober\\.nuget\\packages\\",
-        "outputPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\Tools\\obj\\",
+        "projectPath": "E:\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNet_5335_1916+exceptions\\Tools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ruthkober\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -318,26 +272,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

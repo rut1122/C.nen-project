@@ -15,8 +15,7 @@ namespace BL.BO
         public bool onlyClub { get; set; }
         public DateTime beginSale { get; set; }
         public DateTime? endSale { get; set; }
-
-    
+        public int Id { get; internal set; }
 
         public override string ToString() => ToStringProperty();
 

@@ -54,6 +54,10 @@
       <Project>{4faaa84c-91ec-4f74-912d-828a2b30a9ad}</Project>
       <Name>BL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DalXml\DalXml.csproj">
+      <Project>{6fe52ef9-97ec-48b2-9cc6-a3b5ca125066}</Project>
+      <Name>DalXml</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

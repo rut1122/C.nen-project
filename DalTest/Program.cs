@@ -453,9 +453,19 @@ namespace DalTest
         }
         static void Main(string[] args)
         {
-            Initialization.Initialize();
-            PrintMainmenu();
+            Console.WriteLine("if you want to initialize press 1 if not press 2");
+            string? input = Console.ReadLine();
 
+            if (input == "1")
+            {
+                Console.WriteLine("Initializing data...");
+                Initialization.Initialize();
+            }
+            else
+            {
+                Console.WriteLine("skipping initialitasion");
+            }
+            PrintMainmenu();
         }
     }
 }
