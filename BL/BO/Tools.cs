@@ -35,13 +35,13 @@ namespace BO
         }
         //המרה 
 
-        public static Customer ConvertCustomerToBO(DO.Customer customer)
+        public static BO.Customer ConvertCustomerToBO(DO.Customer customer)
         {
-            return new Customer(customer.id, customer.name, customer.adress, customer.phone);
+            return new BO.Customer(customer.id, customer.name, customer.adress, customer.phone);
         }
         public static DO.Customer ConvertToCustomerDO(Customer customer)
         {
-            return new DO.Customer(customer.id, customer.name, customer.adress, customer.phone);
+            return new DO.Customer(customer.Id, customer.Name, customer.Adress, customer.Phone);
         }
         public static Sale ConvertSaleToBO(DO.Sale sale)
         {
@@ -49,7 +49,7 @@ namespace BO
         }
         public static DO.Sale ConvertSaleToDO(Sale sale)
         {
-            return new DO.Sale(sale.id, sale.productId, sale.requiredAmount, sale.salePrice, sale.onlyClub, sale.beginSale, sale.endSale);
+            return new DO.Sale(sale.Id, sale.ProductId, sale.RequiredAmount, sale.SalePrice, sale.OnlyClub, sale.BeginSale, sale.EndSale);
         }
         public static Product ConvertProductToBO(DO.Product product)
         {
@@ -57,11 +57,13 @@ namespace BO
         }
         public static DO.Product ConvertProductToDO(Product product)
         {
-            return new DO.Product(product.id, product.productName, (DO.Category)product.productCategory, product.price, product.amount);
+            return new DO.Product(product.Id, product.ProductName, (DO.Category)product.ProductCategory, product.Price, product.Amount);
         }
-        public static SaleInProduct ConvertSaleToProductInsale(DO.Sale sale)
-        {
-            return new SaleInProduct(sale.id,sale.RequiredAmount,sale.salePrice,sale.onlyClub);
-        }
+        //public static SaleInProduct ConvertSaleToProductInsale(DO.Sale sale)
+        //{
+        //    //return new SaleInProduct(sale.id,sale.RequiredAmount,sale.salePrice,sale.onlyClub);
+        //    return new SaleInProduct(sale.id, sale.RequiredAmount,sale.salePrice, sale.salePrice,sale.onlyClub);
+        //}
+    
     }
 }

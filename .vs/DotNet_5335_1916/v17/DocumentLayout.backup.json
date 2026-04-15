@@ -3,16 +3,100 @@
   "WorkspaceRootPath": "E:\\DotNet_5335_1916\u002Bexceptions\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalxml\\saleimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\saleimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalxml\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalxml\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|solutionrelative:daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|solutionrelative:daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07294D51-2463-4D51-9332-5527B1DAA9A3}|Tools\\Tools.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\tools\\tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{07294D51-2463-4D51-9332-5527B1DAA9A3}|Tools\\Tools.csproj|solutionrelative:tools\\tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|Solution Items{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|E:\\DotNet_5335_1916\u002Bexceptions\\xml\\dal-confige.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|Solution Items{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|solutionrelative:xml\\dal-confige.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalxml\\dalxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\dalxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalfacade\\dalapi\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalapi\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalfacade\\dalapi\\isale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalapi\\isale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalfacade\\do\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\do\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dallist\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|solutionrelative:dallist\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalxml\\dalxml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\dalxml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalxml\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dallist\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|solutionrelative:dallist\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|Solution Items{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|E:\\DotNet_5335_1916\u002Bexceptions\\xml\\data-config.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|Solution Items{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|solutionrelative:xml\\data-config.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|Solution Items{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|E:\\DotNet_5335_1916\u002Bexceptions\\xml\\orders.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|Solution Items{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|solutionrelative:xml\\orders.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalxml\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dallist\\dallist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|solutionrelative:dallist\\dallist.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalfacade\\dalfacade.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalfacade.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\bl\\blimplementation\\orderimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\orderimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\bl\\bo\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bo\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\bl\\blapi\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\blapi\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\bl\\blimplementation\\orderimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\orderimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\bl\\bo\\productinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{07294D51-2463-4D51-9332-5527B1DAA9A3}|Tools\\Tools.csproj|solutionrelative:tools\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|solutionrelative:daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalfacade\\dalapi\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalapi\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,10 +147,6 @@
       "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bo\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07294D51-2463-4D51-9332-5527B1DAA9A3}|Tools\\Tools.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\tools\\tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{07294D51-2463-4D51-9332-5527B1DAA9A3}|Tools\\Tools.csproj|solutionrelative:tools\\tools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dallist\\saleimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|solutionrelative:dallist\\saleimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,16 +155,8 @@
       "RelativeMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|solutionrelative:dallist\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dallist\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|solutionrelative:dallist\\datasource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dallist\\dallist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|solutionrelative:dallist\\dallist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dallist\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|solutionrelative:dallist\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A44B3E8F-6065-4135-B707-2EE294742911}|DalList\\DalList.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dallist\\dallist.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -115,10 +183,6 @@
       "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\blapi\\ibl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\bl\\blapi\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\blapi\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -139,36 +203,16 @@
       "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\do\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|solutionrelative:daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\daltest\\daltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|solutionrelative:daltest\\daltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalfacade\\dalfacade.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalfacade.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalfacade\\dalapi\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalapi\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalfacade\\dalapi\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalapi\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalfacade\\dalapi\\isale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\dalapi\\isale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalfacade\\do\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\do\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\dalfacade\\do\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\do\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|e:\\dotnet_5335_1916\u002Bexceptions\\daltest\\daltest.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -185,11 +229,155 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
+              "Title": "dal-confige.xml",
+              "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\xml\\dal-confige.xml",
+              "RelativeDocumentMoniker": "xml\\dal-confige.xml",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\xml\\dal-confige.xml*",
+              "RelativeToolTip": "xml\\dal-confige.xml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-03-15T19:33:06.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DalXml.cs",
+              "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\DalXml.cs",
+              "RelativeDocumentMoniker": "DalXml\\DalXml.cs",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\DalXml.cs*",
+              "RelativeToolTip": "DalXml\\DalXml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T19:26:19.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaleImplementation.cs",
+              "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\SaleImplementation.cs",
+              "RelativeDocumentMoniker": "DalXml\\SaleImplementation.cs",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\SaleImplementation.cs*",
+              "RelativeToolTip": "DalXml\\SaleImplementation.cs*",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T17:25:18.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerImplementation.cs",
+              "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\CustomerImplementation.cs",
+              "RelativeDocumentMoniker": "DalXml\\CustomerImplementation.cs",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\CustomerImplementation.cs*",
+              "RelativeToolTip": "DalXml\\CustomerImplementation.cs*",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAUwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T17:23:06.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductImplementation.cs",
+              "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\ProductImplementation.cs",
+              "RelativeDocumentMoniker": "DalXml\\ProductImplementation.cs",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\ProductImplementation.cs*",
+              "RelativeToolTip": "DalXml\\ProductImplementation.cs*",
+              "ViewState": "AgIAAEIAAAAAAAAAAAA7wEsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T17:22:46.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "orders.xml",
+              "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\xml\\orders.xml",
+              "RelativeDocumentMoniker": "xml\\orders.xml",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\xml\\orders.xml",
+              "RelativeToolTip": "xml\\orders.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-03-14T20:34:40.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "data-config.xml",
+              "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\xml\\data-config.xml",
+              "RelativeDocumentMoniker": "xml\\data-config.xml",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\xml\\data-config.xml",
+              "RelativeToolTip": "xml\\data-config.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-03-14T20:34:36.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Config.cs",
+              "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\Config.cs",
+              "RelativeDocumentMoniker": "DalXml\\Config.cs",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\Config.cs",
+              "RelativeToolTip": "DalXml\\Config.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T20:30:23.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DalList.csproj",
+              "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalList\\DalList.csproj",
+              "RelativeDocumentMoniker": "DalList\\DalList.csproj",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalList\\DalList.csproj",
+              "RelativeToolTip": "DalList\\DalList.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-14T19:37:42.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DalXml.csproj",
+              "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\DalXml.csproj",
+              "RelativeDocumentMoniker": "DalXml\\DalXml.csproj",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\DalXml.csproj",
+              "RelativeToolTip": "DalXml\\DalXml.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-14T19:37:07.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\Class1.cs",
+              "RelativeDocumentMoniker": "DalXml\\Class1.cs",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalXml\\Class1.cs",
+              "RelativeToolTip": "DalXml\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T19:37:00.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "LogManager.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\Tools\\LogManager.cs",
               "RelativeDocumentMoniker": "Tools\\LogManager.cs",
@@ -201,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 32,
               "Title": "Factory.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DalApi\\Factory.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\Factory.cs",
@@ -213,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 42,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BlTest\\Program.cs",
               "RelativeDocumentMoniker": "BlTest\\Program.cs",
@@ -225,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 43,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BlImplementation\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\SaleImplementation.cs",
@@ -237,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 28,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BlImplementation\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\CustomerImplementation.cs",
@@ -249,20 +437,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 21,
               "Title": "OrderImplementation.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BlImplementation\\OrderImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\OrderImplementation.cs",
               "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BlImplementation\\OrderImplementation.cs",
               "RelativeToolTip": "BL\\BlImplementation\\OrderImplementation.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAkwFMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAkwJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T19:45:52.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T19:45:52.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 41,
               "Title": "ProductImplementation.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BlImplementation\\ProductImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\ProductImplementation.cs",
@@ -274,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 22,
               "Title": "Tools.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BO\\Tools.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Tools.cs",
@@ -282,12 +469,11 @@
               "RelativeToolTip": "BL\\BO\\Tools.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAQwCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T21:39:58.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T21:39:58.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 44,
               "Title": "IBl.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BlApi\\IBl.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\IBl.cs",
@@ -299,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 49,
               "Title": "Enums.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DO\\Enums.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Enums.cs",
@@ -311,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 33,
               "Title": "SaleInProduct .cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BO\\SaleInProduct .cs",
               "RelativeDocumentMoniker": "BL\\BO\\SaleInProduct .cs",
@@ -323,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 34,
               "Title": "Sale.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BO\\Sale.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Sale.cs",
@@ -335,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 35,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BO\\Product.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Product.cs",
@@ -347,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 24,
               "Title": "ProductInOrder.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BO\\ProductInOrder.cs",
               "RelativeDocumentMoniker": "BL\\BO\\ProductInOrder.cs",
@@ -359,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 30,
               "Title": "Order.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BO\\Order.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Order.cs",
@@ -371,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 48,
               "Title": "Enums.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BO\\Enums.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Enums.cs",
@@ -383,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 29,
               "Title": "Customer.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BO\\Customer.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Customer.cs",
@@ -395,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 46,
               "Title": "ISale.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BlApi\\ISale.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\ISale.cs",
@@ -407,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 47,
               "Title": "IProduct.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BlApi\\IProduct.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\IProduct.cs",
@@ -419,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 23,
               "Title": "IOrder.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BlApi\\IOrder.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\IOrder.cs",
@@ -427,12 +613,11 @@
               "RelativeToolTip": "BL\\BlApi\\IOrder.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T19:48:45.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T19:48:45.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 45,
               "Title": "ICustomer.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BlApi\\ICustomer.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\ICustomer.cs",
@@ -444,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 18,
               "Title": "BL.csproj",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\BL\\BL.csproj",
               "RelativeDocumentMoniker": "BL\\BL.csproj",
@@ -452,11 +637,12 @@
               "RelativeToolTip": "BL\\BL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-24T19:44:59.227Z"
+              "WhenOpened": "2026-02-24T19:44:59.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
               "Title": "Tools.csproj",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\Tools\\Tools.csproj",
               "RelativeDocumentMoniker": "Tools\\Tools.csproj",
@@ -464,11 +650,12 @@
               "RelativeToolTip": "Tools\\Tools.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-10T13:28:35.132Z"
+              "WhenOpened": "2026-02-10T13:28:35.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 54,
               "Title": "LogManager.cs",
               "DocumentMoniker": "D:\\DotNet_5335_1916\u002Bexceptions\\DalTest\\LogManager.cs",
               "ToolTip": "D:\\DotNet_5335_1916\u002Bexceptions\\DalTest\\LogManager.cs",
@@ -478,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 36,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalList\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\SaleImplementation.cs",
@@ -490,19 +677,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 20,
               "Title": "DalFacade.csproj",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DalFacade.csproj",
               "RelativeDocumentMoniker": "DalFacade\\DalFacade.csproj",
               "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DalFacade.csproj",
               "RelativeToolTip": "DalFacade\\DalFacade.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-21T18:16:04.64Z"
+              "WhenOpened": "2026-01-21T18:16:04.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 25,
               "Title": "Customer.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DO\\Customer.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Customer.cs",
@@ -514,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 52,
               "Title": "Exceptions.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DO\\Exceptions.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Exceptions.cs",
@@ -526,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 26,
               "Title": "Sale.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DO\\Sale.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Sale.cs",
@@ -538,41 +726,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 39,
               "Title": "DalList",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalList\\DalList.csproj",
               "RelativeDocumentMoniker": "DalList\\DalList.csproj",
               "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalList\\DalList.csproj",
               "RelativeToolTip": "DalList\\DalList.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-11T20:06:13.461Z"
+              "WhenOpened": "2026-01-11T20:06:13.461Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 53,
               "Title": "DalTest",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalTest\\DalTest.csproj",
               "RelativeDocumentMoniker": "DalTest\\DalTest.csproj",
               "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalTest\\DalTest.csproj",
               "RelativeToolTip": "DalTest\\DalTest.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-11T20:05:42.203Z"
+              "WhenOpened": "2026-01-11T20:05:42.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "Initialization.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalTest\\Initialization.cs",
               "RelativeDocumentMoniker": "DalTest\\Initialization.cs",
               "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalTest\\Initialization.cs",
               "RelativeToolTip": "DalTest\\Initialization.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAawCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAA5wAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T20:04:31.975Z"
+              "WhenOpened": "2026-01-11T20:04:31.975Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 50,
               "Title": "DalTest.csproj",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalTest\\DalTest.csproj",
               "RelativeDocumentMoniker": "DalTest\\DalTest.csproj",
@@ -580,23 +771,25 @@
               "RelativeToolTip": "DalTest\\DalTest.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-11T20:04:28.786Z"
+              "WhenOpened": "2026-01-11T20:04:28.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 10,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DO\\Product.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Product.cs",
               "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DO\\Product.cs",
               "RelativeToolTip": "DalFacade\\DO\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T16:23:20.528Z"
+              "WhenOpened": "2026-01-07T16:23:20.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 11,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalList\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\CustomerImplementation.cs",
@@ -604,11 +797,12 @@
               "RelativeToolTip": "DalList\\CustomerImplementation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T20:19:39.24Z"
+              "WhenOpened": "2026-01-01T20:19:39.24Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 37,
               "Title": "ProductImplementation.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalList\\ProductImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\ProductImplementation.cs",
@@ -620,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 27,
               "Title": "IDal.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DalApi\\IDal.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\IDal.cs",
@@ -632,19 +826,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 9,
               "Title": "ISale.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DalApi\\ISale.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\ISale.cs",
               "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DalApi\\ISale.cs",
               "RelativeToolTip": "DalFacade\\DalApi\\ISale.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T15:28:49.487Z"
+              "WhenOpened": "2026-01-07T15:28:49.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 40,
               "Title": "IProduct.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DalApi\\IProduct.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\IProduct.cs",
@@ -656,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 51,
               "Title": "ICustomer.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DalApi\\ICustomer.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\ICustomer.cs",
@@ -668,19 +863,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalTest\\Program.cs",
               "RelativeDocumentMoniker": "DalTest\\Program.cs",
-              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalTest\\Program.cs",
-              "RelativeToolTip": "DalTest\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAaAAAAAAAAAA==",
+              "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalTest\\Program.cs*",
+              "RelativeToolTip": "DalTest\\Program.cs*",
+              "ViewState": "AgIAAMMBAAAAAAAAAAAAANQBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T15:10:46.841Z"
+              "WhenOpened": "2026-01-07T15:10:46.841Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 38,
               "Title": "DalList.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalList\\DalList.cs",
               "RelativeDocumentMoniker": "DalList\\DalList.cs",
@@ -692,25 +888,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 8,
               "Title": "ICrud.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DalApi\\ICrud.cs",
               "RelativeDocumentMoniker": "DalFacade\\DalApi\\ICrud.cs",
               "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalFacade\\DalApi\\ICrud.cs",
               "RelativeToolTip": "DalFacade\\DalApi\\ICrud.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T19:13:52.402Z"
+              "WhenOpened": "2026-01-01T19:13:52.402Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 14,
               "Title": "DataSource.cs",
               "DocumentMoniker": "E:\\DotNet_5335_1916\u002Bexceptions\\DalList\\DataSource.cs",
               "RelativeDocumentMoniker": "DalList\\DataSource.cs",
               "ToolTip": "E:\\DotNet_5335_1916\u002Bexceptions\\DalList\\DataSource.cs",
               "RelativeToolTip": "DalList\\DataSource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwBMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T21:02:54.549Z"
             }

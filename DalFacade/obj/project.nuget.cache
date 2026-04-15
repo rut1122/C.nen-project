@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "i9JB519X1m8=",
-  "success": true,
-  "projectFilePath": "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj",
+  "dgSpecHash": "oVFTXf9mHsI=",
+  "success": false,
+  "projectFilePath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Ref"
+    }
+  ]
 }

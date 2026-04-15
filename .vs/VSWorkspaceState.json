@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\BL",
+    "\\BL\\BlApi",
+    "\\BL\\BlImplementation",
     "\\DalList"
   ],
-  "SelectedNode": "\\DalList\\ProductImplementation.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -12,5 +12,7 @@ namespace BlImplementation
 {
     public class ProductImplementation :IProduct
     {
+        private DalApi.IDal _dal = DalApi.Factory.Get;
+
     }
 }

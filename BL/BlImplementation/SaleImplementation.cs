@@ -11,5 +11,7 @@ namespace BlImplementation
 {
     internal class SaleImplementation:ISale
     {
+        private DalApi.IDal _dal = DalApi.Factory.Get;
+
     }
 }

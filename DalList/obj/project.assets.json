@@ -1,65 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "DalFacade/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/DalFacade.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DalFacade.dll": {}
-        }
-      },
-      "Tools/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Tools.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Tools.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "DalFacade/1.0.0": {
-      "type": "project",
-      "path": "../DalFacade/DalFacade.csproj",
-      "msbuildProject": "../DalFacade/DalFacade.csproj"
-    },
-    "Tools/1.0.0": {
-      "type": "project",
-      "path": "../Tools/Tools.csproj",
-      "msbuildProject": "../Tools/Tools.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "DalFacade >= 1.0.0",
-      "Tools >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\1\\.nuget\\packages\\": {},
+    "C:\\Users\\ruthkober\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj",
+      "projectUniqueName": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj",
       "projectName": "DalList",
-      "projectPath": "E:\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj",
-      "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "E:\\DotNet_5335_1916+exceptions\\DalList\\obj\\",
+      "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalList\\DalList.csproj",
+      "packagesPath": "C:\\Users\\ruthkober\\.nuget\\packages\\",
+      "outputPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ruthkober\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,11 +40,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj": {
-              "projectPath": "E:\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj"
+            "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj": {
+              "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\DalFacade\\DalFacade.csproj"
             },
-            "E:\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj": {
-              "projectPath": "E:\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj"
+            "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj": {
+              "projectPath": "M:\\C.nen-project\\DotNet_5335_1916+exceptions\\Tools\\Tools.csproj"
             }
           }
         }
@@ -109,13 +74,47 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Ref"
+    }
+  ]
 }
