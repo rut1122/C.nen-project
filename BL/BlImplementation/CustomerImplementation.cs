@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BL.BlApi;
 using BlApi;
 
 namespace BlImplementation;
@@ -24,7 +23,7 @@ internal class CustomerImplementation : ICustomer
         }
         catch (DO.Exceptions.DalIDExists ex)
         {
-            throw new BO.BlExistsException($"customer with id{item.Id} does not exist");
+            throw new BO.BlExistsException($"customer with id {item.Id} is already exist",ex);
         }
 
     }
@@ -37,7 +36,7 @@ internal class CustomerImplementation : ICustomer
         }
         catch (DO.DalNotFound ex)
         {
-            throw new BO.BlNotExistsException("the customer is not exist",ex);
+            throw new BO.BlNotExistsException("the customer is not exist", ex);
         }
     }
     public BO.Customer? Read(int id)
@@ -48,7 +47,7 @@ internal class CustomerImplementation : ICustomer
         }
         catch (DO.DalNotFound ex)
         {
-            throw new BO.BlNotExistsException($"customer with id{id} does not exist",ex);
+            throw new BO.BlNotExistsException($"customer with id {id} does not exist", ex);
         }
     }
 
@@ -57,43 +56,51 @@ internal class CustomerImplementation : ICustomer
     {
         try
         {
-            return BO.Tools.ConvertCustomerToBO(_dal.Customer.Read(doSale => filter(BO.Tools.ConvertCustomerToBO(doSale))));
+            return BO.Tools.ConvertCustomerToBO(_dal.Customer.Read(doCustomer => filter(BO.Tools.ConvertCustomerToBO(doCustomer)!)));
         }
         catch (DO.DalNotFound ex)
         { throw new BO.BlNotExistsException("the customer not found", ex); }
     }
 
 
-    public List<BO.Customer?> ReadAll(Func<BO.Customer, bool>? filter = null)
+    public IEnumerable<BO.Customer> ReadAll(Func<BO.Customer, bool>? filter = null)
     {
-        try
-        {
-            return (List<BO.Customer?>)_dal.Customer.ReadAll();
-        }
-        catch (DO.DalNotFound ex)
-        {
-            throw new BO.BLOperationFailedException("something was wrong...",ex);
-        }
+        
+
+            var customers = _dal.Customer.ReadAll()
+                            .Select(doCust => BO.Tools.ConvertCustomerToBO(doCust)!);
+
+            return filter==null?customers:customers.Where(filter);
     }
 
     public void Update(BO.Customer item)
     {
+        if (item.Id <= 0)
+            throw new BO.BlNotValidInputException("customer id must be positive");
         try
         {
 
             _dal.Customer.Update(BO.Tools.ConvertCustomerToDO(item));
 
-        }catch (DO.DalNotFound ex)
+        }
+        catch (DO.DalNotFound ex)
         {
-            throw new BO.BlExistsException($"customer with id{item.Id} does not exist",ex);
+            throw new BO.BlNotExistsException($"customer with id {item.Id} does not exist", ex);
         }
     }
 
     public bool IsCustomerExist(int id)
     {
+        try
+        {
 
-        if (this.Read(id) !=) return true;
-        return false;
+            return _dal.Customer.Read(id) != null;
+
+        }
+        catch (DO.DalNotFound ex)
+        {
+            return false;
+        }
 
     }
 }

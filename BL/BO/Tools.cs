@@ -59,11 +59,11 @@ namespace BO
         {
             return new DO.Product(product.Id, product.ProductName, (DO.Category)product.ProductCategory, product.Price, product.Amount);
         }
-        //public static SaleInProduct ConvertSaleToProductInsale(DO.Sale sale)
-        //{
-        //    //return new SaleInProduct(sale.id,sale.RequiredAmount,sale.salePrice,sale.onlyClub);
-        //    return new SaleInProduct(sale.id, sale.RequiredAmount,sale.salePrice, sale.salePrice,sale.onlyClub);
-        //}
-    
+        public static SaleInProduct ConvertSaleToProductInsale(DO.Sale sale)
+        {
+            //return new SaleInProduct(sale.id,sale.RequiredAmount,sale.salePrice,sale.onlyClub);
+            return new SaleInProduct(sale.id, sale.RequiredAmount, sale.salePrice, sale.salePrice, sale.onlyClub);
+        }
+
     }
 }
