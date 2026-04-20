@@ -17,3 +17,9 @@ E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.AssemblyInfoInputs.cach
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.AssemblyInfo.cs
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.sourcelink.json
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.AssemblyInfo.cs
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.sourcelink.json

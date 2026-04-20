@@ -70,7 +70,8 @@ internal class CustomerImplementation : ICustomer
             var customers = _dal.Customer.ReadAll()
                             .Select(doCust => BO.Tools.ConvertCustomerToBO(doCust)!);
 
-            return filter==null?customers:customers.Where(filter);
+            //return filter==null?customers:customers.Where(filter);
+        return filter == null ? customers : customers.Where(p => p != null && filter(p));
     }
 
     public void Update(BO.Customer item)

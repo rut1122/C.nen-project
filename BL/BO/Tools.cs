@@ -62,7 +62,7 @@ namespace BO
         public static SaleInProduct ConvertSaleToProductInsale(DO.Sale sale)
         {
             //return new SaleInProduct(sale.id,sale.RequiredAmount,sale.salePrice,sale.onlyClub);
-            return new SaleInProduct(sale.id, sale.RequiredAmount, sale.salePrice, sale.salePrice, sale.onlyClub);
+            return new SaleInProduct(sale.id, sale.RequiredAmount, sale.salePrice, sale.onlyClub);
         }
 
     }
