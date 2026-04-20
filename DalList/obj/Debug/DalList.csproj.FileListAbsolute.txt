@@ -17,3 +17,11 @@ E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.AssemblyInfoInputs.cach
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.AssemblyInfo.cs
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.sourcelink.json
+E:\DotNet_5335_1916+exceptions\bin\DalList.deps.json
+E:\DotNet_5335_1916+exceptions\bin\DalList.dll
+E:\DotNet_5335_1916+exceptions\bin\DalList.pdb
+E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.csproj.Up2Date
+E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.dll
+E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\refint\DalList.dll
+E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.pdb
+E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\ref\DalList.dll

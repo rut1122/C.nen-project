@@ -4,7 +4,7 @@ using BL.BO;
 
 namespace BO
 {
-    internal static class Tools
+    public static class Tools
     {
         public static string ToStringProperty<T>(this T obj)
         {
@@ -62,7 +62,7 @@ namespace BO
         public static SaleInProduct ConvertSaleToProductInsale(DO.Sale sale)
         {
             //return new SaleInProduct(sale.id,sale.RequiredAmount,sale.salePrice,sale.onlyClub);
-            return new SaleInProduct(sale.id, sale.RequiredAmount, sale.salePrice, sale.salePrice, sale.onlyClub);
+            return new SaleInProduct(sale.id, sale.RequiredAmount, sale.salePrice, sale.onlyClub);
         }
 
     }

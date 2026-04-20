@@ -1,64 +1,86 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using BL.BlApi;
+using BL.BO;
+using BlApi;
+using BO;
 
-using System.Threading.Tasks;
 namespace BlImplementation
 {
-    public class ProductImplementation :IProduct
+    public class ProductImplementation : IProduct
     {
         private DalApi.IDal _dal = DalApi.Factory.Get;
 
         public int Create(BO.Product item)
         {
-           
+            if (item.Id < 0) throw new BlNotValidInputException("ID must be positive");
+            if (item.Price <= 0) throw new BlNotValidInputException("Price must be positive");
+
+            try
+            {
+                return _dal.Product.Create(Tools.ConvertProductToDO(item));
+            }
+            catch (DO.Exceptions.DalIDExists ex)
+            {
+                throw new BlExistsException($"Product {item.Id} already exists", ex);
+            }
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _dal.Product.Delete(id);
+            }
+            catch (DO.DalNotFound ex)
+            {
+                throw new BlNotExistsException($"Product {id} not found for deletion", ex);
+            }
+        }
+
+        public BO.Product? Read(int id)
+        {
+            try
+            {
+                return Tools.ConvertProductToBO(_dal.Product.Read(id));
+            }
+            catch (DO.DalNotFound ex)
+            {
+                throw new BlNotExistsException($"Product {id} not found", ex);
+            }
+        }
+
+        public BO.Product? Read(Func<BO.Product, bool> filter)
+        {
+            return ReadAll().FirstOrDefault(filter!);
+        }
+
+        public IEnumerable<BO.Product> ReadAll(Func<BO.Product, bool>? filter = null)
+        {
+            var products = _dal.Product.ReadAll()
+                           .Select(doProd => Tools.ConvertProductToBO(doProd));
+
+            return filter == null ? products : products.Where(filter);
+        }
+
+        public void Update(BO.Product item)
+        {
+            if (item.Id <= 0) throw new BlNotValidInputException("Invalid ID for update");
+            try
+            {
+                _dal.Product.Update(Tools.ConvertProductToDO(item));
+            }
+            catch (DO.DalNotFound ex)
+            {
+                throw new BlNotExistsException($"Product {item.Id} not found", ex);
+            }
         }
 
         public void IsValid(ProductInOrder product, bool favorite)
         {
-            throw new NotImplementedException();
-        }
-
-        public BO.Customer? Read(Func<BO.Customer, bool> filter)
-        {
-            try
-            {
-                return BO.Tools.ConvertCustomerToBO(_dal.Customer.Read(doSale => filter(BO.Tools.ConvertCustomerToBO(doSale))));
-            }
-            catch (DO.DalNotFound ex)
-            { throw new BO.BlNotExistsException("the order not found", ex); }
-        }
-
-public BO.Product? Read(int id)
-        {
-            try
-            {
-                return BO.Tools.ConvertProductToBO(_dal.Product.Read(doSale => filter(BO.Tools.ConvertProductToBO(doSale))));
-            }
-            catch (DO.DalNotFound ex)
-            { throw new BO.BlNotExistsException("the order not found", ex); }
-        }
-
-        public BL.BO.Product? Read(Func<BL.BO.Product, bool> filter)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<BL.BO.Product?> ReadAll(Func<BL.BO.Product, bool>? filter = null)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(BL.BO.Product item)
-        {
-            throw new NotImplementedException();
+            var doProduct = _dal.Product.Read(product.Id);
+            if (doProduct.amount < product.Amount)
+                throw new BlNotValidInputException($"Not enough stock for {product.Name}");
         }
     }
 }

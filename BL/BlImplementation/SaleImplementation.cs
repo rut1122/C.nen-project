@@ -3,43 +3,78 @@ using BO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BlImplementation
 {
-    internal class SaleImplementation:ISale
+    internal class SaleImplementation : ISale
     {
         private DalApi.IDal _dal = DalApi.Factory.Get;
 
-        public int Create(Sale item)
+        public int Create(BO.Sale item)
         {
-            throw new NotImplementedException();
+            // בדיקת תקינות בסיסית
+            if (item.SalePrice <= 0) throw new BlNotValidInputException("Sale price must be positive");
+            if (item.BeginSale > item.EndSale) throw new BlNotValidInputException("Start date cannot be after end date");
+
+            try
+            {
+                return _dal.Sale.Create(Tools.ConvertSaleToDO(item));
+            }
+            catch (DO.Exceptions.DalIDExists ex)
+            {
+                throw new BlExistsException($"Sale with ID {item.Id} already exists", ex);
+            }
         }
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _dal.Sale.Delete(id);
+            }
+            catch (DO.DalNotFound ex)
+            {
+                throw new BlNotExistsException($"Sale {id} not found", ex);
+            }
         }
 
-        public Sale? Read(int id)
+        public BO.Sale? Read(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var doSale = _dal.Sale.Read(id);
+                return Tools.ConvertSaleToBO(doSale);
+            }
+            catch (DO.DalNotFound ex)
+            {
+                throw new BlNotExistsException($"Sale {id} not found", ex);
+            }
         }
 
-        public Sale? Read(Func<Sale, bool> filter)
+        public BO.Sale? Read(Func<BO.Sale, bool> filter)
         {
-            throw new NotImplementedException();
+            // שימוש ב-ReadAll כדי להחיל את הפילטר על אובייקטים מסוג BO
+            return ReadAll().FirstOrDefault(filter!);
         }
 
-        public IEnumerable<Sale?> ReadAll(Func<Product, bool>? filter = null)
+        public IEnumerable<BO.Sale> ReadAll(Func<BO.Sale, bool>? filter = null)
         {
-            throw new NotImplementedException();
+            var sales = _dal.Sale.ReadAll()
+                        .Select(doSale => Tools.ConvertSaleToBO(doSale));
+
+            return filter == null ? sales : sales.Where(filter);
         }
 
-        public void Update(Sale item)
+        public void Update(BO.Sale item)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _dal.Sale.Update(Tools.ConvertSaleToDO(item));
+            }
+            catch (DO.DalNotFound ex)
+            {
+                throw new BlNotExistsException($"Sale {item.Id} not found for update", ex);
+            }
         }
     }
 }

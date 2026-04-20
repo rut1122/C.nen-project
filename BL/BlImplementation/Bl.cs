@@ -1,5 +1,4 @@
-﻿using BL.BlApi;
-using BlApi;
+﻿using BlApi;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,11 +9,9 @@ namespace BlImplementation
 {
     internal class Bl : IBl
     {
-        public ISale Student => new SaleImplementation();
         public ICustomer Customer => new CustomerImplementation();
         public IProduct Product => new ProductImplementation();
         public IOrder Order => new OrderImplementation();
-
-        public ISale Sale => throw new NotImplementedException();
+        public BlApi.ISale Sale => new BlImplementation.SaleImplementation();
     }
 }

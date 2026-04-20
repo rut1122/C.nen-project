@@ -22,5 +22,6 @@ namespace BO
             this.Products = products;
             this.FinalPrice = finalPrice;
         }
+        public Order() { Products = new List<ProductInOrder>(); }
     }
 }

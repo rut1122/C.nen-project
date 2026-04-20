@@ -2,6 +2,6 @@
 
 namespace DalApi;
 
-public interface ISale:ICrud<Sale>  
+public interface ISale:ICrud<DO.Sale>  
 {
 }

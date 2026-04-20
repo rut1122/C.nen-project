@@ -25,6 +25,7 @@ namespace BO
             this.Price = price;
             this.Amount = amount;
         }
+        public Product() { }
     }
 
 }

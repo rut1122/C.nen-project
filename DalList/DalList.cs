@@ -4,21 +4,18 @@ namespace Dal
 {
     internal sealed class DalList : IDal
     {
+
+        private static readonly DalList instance = new DalList();
+
         private DalList() { }
-        private readonly DalList instanse = new DalList();
-        public static readonly DalList Instans
+
+        public static IDal Instance
         {
-            get { return this.instanse; }
+            get { return instance; }
         }
 
-        // פה אנחנו אומרים: מי שמבקש את 'Product', תן לו את המימוש שכתבנו
         public IProduct Product => new ProductImplementation();
-
-        // מי שמבקש את 'Sale', תן לו את המימוש של המכירות
         public ISale Sale => new SaleImplementation();
-
-        // מי שמבקש את 'Customer', תן לו את המימוש של הלקוחות
         public ICustomer Customer => new CustomerImplementation();
     }
 }
-

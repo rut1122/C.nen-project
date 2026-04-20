@@ -72,7 +72,7 @@ public class CustomerImplementation :ICustomer
         return customer;
     }
     // 3. ReadAll - שליפת כל הלקוחות
-    public List<Customer?> ReadAll(Func<Customer, bool>? filter = null)
+    public IEnumerable<Customer?> ReadAll(Func<Customer, bool>? filter = null)
     {
         string project = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         string funcName = MethodBase.GetCurrentMethod().Name;
