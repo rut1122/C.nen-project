@@ -1,63 +1,88 @@
 ﻿using System;
-using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace DalTest
 {
     public static class LogManager
     {
-        private static string path = "Log";
-
-        // שימי לב: השתמשתי במאפיינים (Properties) כדי שהתאריך תמיד יהיה מעודכן לרגע הכתיבה
-        static int day => DateTime.Now.Day;
-        static int month => DateTime.Now.Month;
-
+        static int day = DateTime.Now.Day;
+        static int month = DateTime.Now.Month;
         private static void CreateLogFile()
         {
-            // 1. בונים את הנתיב המלא לתיקייה שצריכה להכיל את הקובץ
-            string folderPath = GetFolderPath();
+            DirectoryInfo logDir = Directory.CreateDirectory(path);
 
-            // 2. הפקודה הזו יוצרת את כל עץ התיקיות (גם Log וגם את תיקיית החודש) במכה אחת בבטחה
-            if (!Directory.Exists(folderPath))
+
+            //בדיקה האם קיימת תיקיה לשנה הנוכחית
+            if (!Directory.Exists($@"{logDir.FullName}\{month}"))
             {
-                Directory.CreateDirectory(folderPath);
+                //יוצרים תת תיקיה עבור השנה
+                logDir.CreateSubdirectory(month.ToString());
+            }
+            //בדיקה האם קיימת תיקיה לחודש הנוכחי
+            if (!Directory.Exists($@"{logDir.FullName}\\{month}"))
+            {
+                //יוצרים תת תיקיה עבור השנה
+                logDir.CreateSubdirectory($@"\{month}");
             }
 
-            // 3. יצירת הקובץ אם הוא לא קיים
-            string filePath = GetFilePath();
-            if (!File.Exists(filePath))
+            if (!File.Exists($@"{logDir.FullName}\\{month}\{day}.txt"))
             {
-                // שימוש ב-using כאן מבטיח שהקובץ נסגר מיד ולא נשאר "תפוס" בזיכרון
-                using (File.Create(filePath)) { }
+                File.Create($@"{logDir.FullName}\\{month}\{day}.txt").Close();
             }
         }
 
-        // שימוש ב-Path.Combine הוא חובה כדי למנוע טעויות של סלאשים (/)
-        private static string GetFolderPath() =>
-            Path.Combine(AppContext.BaseDirectory, path, month.ToString());
+        private static string path = "Log";
 
-        private static string GetFilePath() =>
-            Path.Combine(GetFolderPath(), $"{day}.txt");
 
+        //קבלת ניתוב התיקיה
+        private static string GetFolderPath()
+        {
+            return $@"{path}\{month}";
+        }
+        //קבלת ניתוב הקובץ הנוכחי
+        private static string GetFilePath()
+        {
+            return $@"{GetFolderPath()}\{day}.txt";
+        }
+        //כתיבה ללוג
         public static void WriteToLog(string projectname, string funcname, string message)
         {
-            // אנחנו עוטפים הכל ב-Try Catch כדי שהלוג בחיים לא יפיל את התוכנית הראשית
-            try
+            CreateLogFile();
+            string mesToWhrite = $"{DateTime.Now}\t{projectname}.{funcname}:\t{message}";
+            using (StreamWriter writer = new StreamWriter(GetFilePath(), true))
             {
-                CreateLogFile();
-
-                string filePath = GetFilePath();
-                string mesToWrite = $"{DateTime.Now:dd/MM/yyyy HH:mm:ss}\t{projectname}.{funcname}:\t{message}";
-
-                // StreamWriter עם true אומר לו להוסיף לסוף הקובץ (Append) ולא למחוק מה שהיה
-                using (StreamWriter writer = new StreamWriter(filePath, true))
-                {
-                    writer.WriteLine(mesToWrite);
-                }
+                writer.WriteLine(mesToWhrite);
             }
-            catch (Exception ex)
+        }
+        //מוחק את התיקיה חוץ מהחודשיים האחרונים
+        public static void CleanLog()
+        {
+            //אם התיקיה לא קיימת
+            if (!Directory.Exists(GetFolderPath())) return;
+            //אם יש תיקיה ניצור מערך של כל הקבצים בתיקיה
+            string[] files = Directory.GetFiles(GetFolderPath());
+
+            DateTime endDate = DateTime.Now.AddMonths(-2);
+            foreach (string file in files)
             {
-                // במקרה של תקלה בלוג, מדפיסים למסך כדי שתדעי, אבל לא קורסים
-                Console.WriteLine($"[Internal Log Error]: {ex.Message}");
+                FileInfo fileInfo = new FileInfo(file);
+                //אם זמן ההווצרות שלו קטן מהתאריך היעד
+                if (fileInfo.CreationTime < endDate)
+                {
+                    //נמחק אותו
+                    try
+                    {
+                        fileInfo.Delete();
+                    }
+                    catch
+                    {
+                        // אם הקובץ פתוח כרגע בתוכנית אחרת, נתעלם מהשגיאה ונמשיך}
+                    }
+                }
+
             }
         }
     }
