@@ -7,6 +7,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <ProjectReference Include="..\BL\BL.csproj" />
     <ProjectReference Include="..\DalTest\DalTest.csproj" />
@@ -19,4 +20,6 @@
     </None>
   </ItemGroup>
 
+=======
+>>>>>>> 3c5b6648d9d8f943d5c5ccd59b5df2087f2b5059
 </Project>

@@ -3,6 +3,8 @@ using BO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace BlImplementation
 {
@@ -10,21 +12,20 @@ namespace BlImplementation
     {
         private DalApi.IDal _dal = DalApi.Factory.Get;
 
-        public int Create(BO.Sale item)
+        public int Create(Sale item)
         {
-            // בדיקת תקינות בסיסית
-            if (item.SalePrice <= 0) throw new BlNotValidInputException("Sale price must be positive");
-            if (item.BeginSale > item.EndSale) throw new BlNotValidInputException("Start date cannot be after end date");
-
+            if (item.Id <= 0)
+                throw new BO.BlNotValidInputException("Sale ID must be positive");
             try
             {
-                return _dal.Sale.Create(Tools.ConvertSaleToDO(item));
+                return _dal.Sale.Create(BO.Tools.ConvertSaleToDO(item));
             }
             catch (DO.Exceptions.DalIDExists ex)
             {
-                throw new BlExistsException($"Sale with ID {item.Id} already exists", ex);
+                throw new BO.BlExistsException($"Sale with id {item.Id} already exists", ex);
             }
         }
+
 
         public void Delete(int id)
         {
@@ -34,46 +35,56 @@ namespace BlImplementation
             }
             catch (DO.DalNotFound ex)
             {
-                throw new BlNotExistsException($"Sale {id} not found", ex);
+                throw new BO.BlNotExistsException("The sale does not exist", ex);
             }
+
         }
 
-        public BO.Sale? Read(int id)
+        public Sale? Read(int id)
         {
             try
             {
-                var doSale = _dal.Sale.Read(id);
-                return Tools.ConvertSaleToBO(doSale);
+                return BO.Tools.ConvertSaleToBO(_dal.Sale.Read(id));
             }
             catch (DO.DalNotFound ex)
             {
-                throw new BlNotExistsException($"Sale {id} not found", ex);
+                throw new BO.BlNotExistsException($"Sale with id {id} does not exist", ex);
             }
         }
 
-        public BO.Sale? Read(Func<BO.Sale, bool> filter)
+        public Sale? Read(Func<Sale, bool> filter)
         {
-            // שימוש ב-ReadAll כדי להחיל את הפילטר על אובייקטים מסוג BO
-            return ReadAll().FirstOrDefault(filter!);
+            try
+            {
+                // המרה של ה-filter מ-BO ל-DO כדי שה-DAL יבין אותו
+                return BO.Tools.ConvertSaleToBO(_dal.Sale.Read(doSale => filter(BO.Tools.ConvertSaleToBO(doSale)!)));
+            }
+            catch (DO.DalNotFound ex)
+            {
+                throw new BO.BlNotExistsException("Sale not found", ex);
+            }
         }
 
-        public IEnumerable<BO.Sale> ReadAll(Func<BO.Sale, bool>? filter = null)
+        public IEnumerable<Sale?> ReadAll(Func<Sale, bool>? filter = null)
         {
             var sales = _dal.Sale.ReadAll()
-                        .Select(doSale => Tools.ConvertSaleToBO(doSale));
+                        .Select(doSale => (BO.Sale?)BO.Tools.ConvertSaleToBO(doSale));
 
-            return filter == null ? sales : sales.Where(filter);
+            return filter == null ? sales : sales.Where(s => s != null && filter(s));
         }
 
-        public void Update(BO.Sale item)
+        public void Update(Sale item)
         {
+            if (item.Id <= 0)
+                throw new BO.BlNotValidInputException("Sale ID must be positive");
+
             try
             {
-                _dal.Sale.Update(Tools.ConvertSaleToDO(item));
+                _dal.Sale.Update(BO.Tools.ConvertSaleToDO(item));
             }
             catch (DO.DalNotFound ex)
             {
-                throw new BlNotExistsException($"Sale {item.Id} not found for update", ex);
+                throw new BO.BlNotExistsException($"Sale with id {item.Id} does not exist", ex);
             }
         }
     }

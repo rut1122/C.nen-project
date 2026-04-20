@@ -36,3 +36,20 @@ E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\refint\DalTest.dll
 E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.pdb
 E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\ref\DalTest.dll
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalTest.exe
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalTest.deps.json
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalTest.runtimeconfig.json
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalTest.dll
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalTest.pdb
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.sourcelink.json
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.csproj.Up2Date
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.dll
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\refint\DalTest.dll
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.pdb
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\ref\DalTest.dll

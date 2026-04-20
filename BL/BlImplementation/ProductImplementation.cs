@@ -1,86 +1,96 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using BL.BO;
+
 using BlApi;
-using BO;
+using BO; // מוודא שזה מכיר את ProductInOrder
 
-namespace BlImplementation
+namespace BlImplementation;
+
+internal class ProductImplementation : IProduct
 {
-    public class ProductImplementation : IProduct
+    private DalApi.IDal _dal = DalApi.Factory.Get;
+
+    public int Create(BO.Product item)
     {
-        private DalApi.IDal _dal = DalApi.Factory.Get;
-
-        public int Create(BO.Product item)
+        if (item.Id <= 0)
+            throw new BO.BlNotValidInputException("product id must be positive");
+        try
         {
-            if (item.Id < 0) throw new BlNotValidInputException("ID must be positive");
-            if (item.Price <= 0) throw new BlNotValidInputException("Price must be positive");
-
-            try
-            {
-                return _dal.Product.Create(Tools.ConvertProductToDO(item));
-            }
-            catch (DO.Exceptions.DalIDExists ex)
-            {
-                throw new BlExistsException($"Product {item.Id} already exists", ex);
-            }
+            return _dal.Product.Create(BO.Tools.ConvertProductToDO(item));
         }
-
-        public void Delete(int id)
+        catch (DO.Exceptions.DalIDExists ex)
         {
-            try
-            {
-                _dal.Product.Delete(id);
-            }
-            catch (DO.DalNotFound ex)
-            {
-                throw new BlNotExistsException($"Product {id} not found for deletion", ex);
-            }
+            throw new BO.BlExistsException($"product with id {item.Id} is already exist", ex);
         }
+    }
 
-        public BO.Product? Read(int id)
+    public BO.Product? Read(int id)
+    {
+        try
         {
-            try
-            {
-                return Tools.ConvertProductToBO(_dal.Product.Read(id));
-            }
-            catch (DO.DalNotFound ex)
-            {
-                throw new BlNotExistsException($"Product {id} not found", ex);
-            }
+            return BO.Tools.ConvertProductToBO(_dal.Product.Read(id));
         }
-
-        public BO.Product? Read(Func<BO.Product, bool> filter)
+        catch (DO.DalNotFound ex)
         {
-            return ReadAll().FirstOrDefault(filter!);
+            throw new BO.BlNotExistsException($"product with id {id} does not exist", ex);
         }
+    }
 
-        public IEnumerable<BO.Product> ReadAll(Func<BO.Product, bool>? filter = null)
+    public BO.Product? Read(Func<BO.Product, bool> filter)
+    {
+        try
         {
-            var products = _dal.Product.ReadAll()
-                           .Select(doProd => Tools.ConvertProductToBO(doProd));
-
-            return filter == null ? products : products.Where(filter);
+            return BO.Tools.ConvertProductToBO(_dal.Product.Read(doProd => filter(BO.Tools.ConvertProductToBO(doProd)!)));
         }
-
-        public void Update(BO.Product item)
+        catch (DO.DalNotFound ex)
         {
-            if (item.Id <= 0) throw new BlNotValidInputException("Invalid ID for update");
-            try
-            {
-                _dal.Product.Update(Tools.ConvertProductToDO(item));
-            }
-            catch (DO.DalNotFound ex)
-            {
-                throw new BlNotExistsException($"Product {item.Id} not found", ex);
-            }
+            throw new BO.BlNotExistsException("the product not found", ex);
         }
+    }
 
-        public void IsValid(ProductInOrder product, bool favorite)
+    // שונה ל-BO.Product? כדי להתאים לממשק שלך
+    public IEnumerable<BO.Product?> ReadAll(Func<BO.Product, bool>? filter = null)
+    {
+        var products = _dal.Product.ReadAll()
+                        .Select(doProd => BO.Tools.ConvertProductToBO(doProd));
+
+        return filter == null ? products : products.Where(p => p != null && filter(p));
+    }
+
+    public void Update(BO.Product item)
+    {
+        if (item.Id <= 0)
+            throw new BO.BlNotValidInputException("product id must be positive");
+        try
         {
-            var doProduct = _dal.Product.Read(product.Id);
-            if (doProduct.amount < product.Amount)
-                throw new BlNotValidInputException($"Not enough stock for {product.Name}");
+            _dal.Product.Update(BO.Tools.ConvertProductToDO(item));
         }
+        catch (DO.DalNotFound ex)
+        {
+            throw new BO.BlNotExistsException($"product with id {item.Id} does not exist", ex);
+        }
+    }
+
+    public void Delete(int id)
+    {
+        try
+        {
+            _dal.Product.Delete(id);
+        }
+        catch (DO.DalNotFound ex)
+        {
+            throw new BO.BlNotExistsException("the product is not exist", ex);
+        }
+    }
+
+    // מימוש מדויק לפי הממשק שלך: void ושם פרמטר favorite
+    public void IsValid(ProductInOrder product, bool favorite)
+    {
+        if (product.Id <= 0)
+            throw new BO.BlNotValidInputException("Invalid product id");
     }
 }
