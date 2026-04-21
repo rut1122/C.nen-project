@@ -32,7 +32,7 @@ namespace Tools
 
             if (!File.Exists($@"{logDir.FullName}\{month}\{day}.txt"))
             {
-                File.Create($@"{logDir.FullName}\{day}\{month}.txt").Close();
+                File.Create($@"{logDir.FullName}\{month}\{day}.txt").Close();
             }
         }
         //קבלת ניתוב תיקייה

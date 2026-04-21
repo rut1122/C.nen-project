@@ -19,23 +19,6 @@ E:\DotNet_5335_1916\DalTest\obj\Debug\refint\DalTest.dll
 E:\DotNet_5335_1916\DalTest\obj\Debug\DalTest.pdb
 E:\DotNet_5335_1916\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 E:\DotNet_5335_1916\DalTest\obj\Debug\ref\DalTest.dll
-E:\DotNet_5335_1916+exceptions\bin\DalTest.exe
-E:\DotNet_5335_1916+exceptions\bin\DalTest.deps.json
-E:\DotNet_5335_1916+exceptions\bin\DalTest.runtimeconfig.json
-E:\DotNet_5335_1916+exceptions\bin\DalTest.dll
-E:\DotNet_5335_1916+exceptions\bin\DalTest.pdb
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.sourcelink.json
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.csproj.Up2Date
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.dll
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\refint\DalTest.dll
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.pdb
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
-E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\ref\DalTest.dll
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalTest.exe
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalTest.deps.json
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalTest.runtimeconfig.json
@@ -53,3 +36,20 @@ D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\re
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.pdb
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalTest\obj\Debug\ref\DalTest.dll
+E:\DotNet_5335_1916+exceptions\bin\DalTest.exe
+E:\DotNet_5335_1916+exceptions\bin\DalTest.deps.json
+E:\DotNet_5335_1916+exceptions\bin\DalTest.runtimeconfig.json
+E:\DotNet_5335_1916+exceptions\bin\DalTest.dll
+E:\DotNet_5335_1916+exceptions\bin\DalTest.pdb
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.sourcelink.json
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.csproj.Up2Date
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.dll
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\refint\DalTest.dll
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.pdb
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+E:\DotNet_5335_1916+exceptions\DalTest\obj\Debug\ref\DalTest.dll

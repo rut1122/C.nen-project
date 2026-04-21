@@ -33,6 +33,14 @@ M:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\DalFacade.dll
 M:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\refint\DalFacade.dll
 M:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\DalFacade.pdb
 M:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\ref\DalFacade.dll
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.sourcelink.json
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.dll
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\refint\DalFacade.dll
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.pdb
 E:\DotNet_5335_1916+exceptions\bin\DalFacade.deps.json
 E:\DotNet_5335_1916+exceptions\bin\DalFacade.dll
 E:\DotNet_5335_1916+exceptions\bin\DalFacade.pdb
@@ -45,11 +53,3 @@ E:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\DalFacade.dll
 E:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\refint\DalFacade.dll
 E:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\DalFacade.pdb
 E:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\ref\DalFacade.dll
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.sourcelink.json
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.dll
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\refint\DalFacade.dll
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.pdb

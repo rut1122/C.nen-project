@@ -1,36 +1,14 @@
-E:\DotNet_5335_1916\bin\DalList.deps.json
-E:\DotNet_5335_1916\bin\DalList.dll
-E:\DotNet_5335_1916\bin\DalList.pdb
-E:\DotNet_5335_1916\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
-E:\DotNet_5335_1916\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
-E:\DotNet_5335_1916\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
-E:\DotNet_5335_1916\DalList\obj\Debug\DalList.AssemblyInfo.cs
-E:\DotNet_5335_1916\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
-E:\DotNet_5335_1916\DalList\obj\Debug\DalList.csproj.Up2Date
-E:\DotNet_5335_1916\DalList\obj\Debug\DalList.dll
-E:\DotNet_5335_1916\DalList\obj\Debug\refint\DalList.dll
-E:\DotNet_5335_1916\DalList\obj\Debug\DalList.pdb
-E:\DotNet_5335_1916\DalList\obj\Debug\ref\DalList.dll
+E:\DotNet_5335_1916+exceptions\bin\DalList.deps.json
+E:\DotNet_5335_1916+exceptions\bin\DalList.dll
+E:\DotNet_5335_1916+exceptions\bin\DalList.pdb
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.AssemblyInfo.cs
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.sourcelink.json
-<<<<<<< HEAD
-E:\DotNet_5335_1916+exceptions\bin\DalList.deps.json
-E:\DotNet_5335_1916+exceptions\bin\DalList.dll
-E:\DotNet_5335_1916+exceptions\bin\DalList.pdb
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.csproj.Up2Date
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.dll
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\refint\DalList.dll
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\DalList.pdb
 E:\DotNet_5335_1916+exceptions\DalList\obj\Debug\ref\DalList.dll
-=======
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.AssemblyInfo.cs
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalList\obj\Debug\DalList.sourcelink.json
->>>>>>> 3c5b6648d9d8f943d5c5ccd59b5df2087f2b5059

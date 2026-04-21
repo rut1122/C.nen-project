@@ -1,14 +1,12 @@
-<<<<<<< HEAD
+
 ﻿using BL.BO;
 using BlApi;
 using BO;
 using System;
 using System.Collections.Generic;
 
-namespace BlTest
-=======
 ﻿namespace BlTest
->>>>>>> 3c5b6648d9d8f943d5c5ccd59b5df2087f2b5059
+
 {
     internal class Program
     {
@@ -17,7 +15,8 @@ namespace BlTest
 
         static void Main(string[] args)
         {
-<<<<<<< HEAD
+            DalTest.Initialization.Initialize();
+
             Console.WriteLine("--- Welcome to Order System Test ---");
 
             string? choice;
@@ -106,9 +105,8 @@ namespace BlTest
             {
                 Console.WriteLine("Order cancelled. Data not saved.");
             }
-=======
             Console.WriteLine("Hello, World!");
->>>>>>> 3c5b6648d9d8f943d5c5ccd59b5df2087f2b5059
+
         }
     }
 }

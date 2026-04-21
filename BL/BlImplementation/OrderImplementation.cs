@@ -1,5 +1,7 @@
 ﻿using BlApi;
 using BL.BO;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace BlImplementation
@@ -8,153 +10,158 @@ namespace BlImplementation
     {
         private readonly DalApi.IDal _dal = DalApi.Factory.Get;
 
-        //עדכון המבצעים המתאימים למוצר בהזמנה
-
-        public void SearchSaleForProduct(ProductInOrder product, bool existsCustomer)
+        // --- 1. חיפוש מבצעים למוצר ---
+        public void SearchSaleForProduct(ProductInOrder product, bool isFavorite)
         {
             var now = DateTime.Now;
-            //שאילתה האם עונה על כל התנאים
+
+            // 1. שלפי את כל המבצעים שבתוקף עבור המוצר (בלי לבדוק כמות עדיין!)
             var salesQuery = from s in _dal.Sale.ReadAll()
                              where s.productId == product.Id
                              && s.beginSale <= now
                              && (s.endSale == null || s.endSale >= now)
-                             && s.RequiredAmount <= product.Amount
                              select s;
 
-            if (!existsCustomer)
+            // 2. סינון מועדון
+            if (!isFavorite)
             {
-                salesQuery = salesQuery.Where(s => s.onlyClub == false);
+                salesQuery = salesQuery.Where(s => !s.onlyClub);
             }
-            //יצירת רשימה ממויינת לפי הדרישה
+
+            // 3. עדכון ה-DEBUG (עכשיו הוא ימצא את המבצע!)
+            // במקום שורת ה-DEBUG הקודמת
+            var allSales = _dal.Sale.ReadAll().ToList();
+            Console.WriteLine($"--- DEBUG DAL CHECK ---");
+            Console.WriteLine($"Looking for Product ID: {product.Id}");
+            foreach (var s in allSales)
+            {
+                Console.WriteLine($"Sale in DAL: ID={s.id}, ProductId={s.productId}, Begin={s.beginSale}, End={s.endSale}");
+            }
+            Console.WriteLine($"Found {salesQuery.Count()} matches after filtering.");
+            Console.WriteLine($"------------------------");
+            // 4. המרה ושמירה במוצר
             product.SaleList = salesQuery
                 .OrderBy(s => s.salePrice)
-               .Select(s => BO.Tools.ConvertSaleToProductInsale(s))
-               .ToList();
-
+                .Select(s => BO.Tools.ConvertSaleToProductInsale(s))
+                .ToList();
         }
-        //הוספת מוצר להזמנה
+
+        // --- 2. חישוב מחיר סופי למוצר (כולל כפל מבצעים) ---
+        public void CalcTotalPriceForProduct(ProductInOrder product)
+        {
+            int remainingCount = product.Amount;
+            double totalPrice = 0;
+            List<SaleInProduct> appliedSales = new List<SaleInProduct>();
+
+            // מעבר על המבצעים הממויינים מהזול ליקר
+            foreach (var sale in product.SaleList)
+            {
+                if (remainingCount < sale.Amount) continue;
+
+                int timesToApply = remainingCount / sale.Amount;
+                totalPrice += timesToApply * (sale.Price*sale.Amount);
+                remainingCount -= (timesToApply * sale.Amount);
+
+                appliedSales.Add(sale);
+
+                if (remainingCount == 0) break;
+            }
+
+            // הוספת היתרה לפי מחיר בסיס
+            totalPrice += (remainingCount * product.BasePrice);
+
+            product.SaleList = appliedSales;
+            product.FinalPrice = totalPrice;
+        }
+
+        // --- 3. חישוב מחיר כולל להזמנה ---
+        public void CalcTotalPrice(BO.Order order)
+        {
+            if (order?.Products != null)
+            {
+                order.FinalPrice = order.Products.Sum(p => p.FinalPrice);
+            }
+        }
+
+        // --- 4. הוספת מוצר לסל (הזמנה) ---
         public List<SaleInProduct> AddPoductToOrder(int productId, int amount, BO.Order order)
         {
             try
             {
-                //שליפה מהדאל
-                var doProduct = _dal.Product.Read(productId) ?? throw new BO.BlNotExistsException("Product not found");
-                //אם יש מספיק במלאי
-                if (doProduct.amount < amount)
-                    throw new BO.BlNotValidInputException("Not enough in stock");
+                // שליפה מהדאל לבדיקת מלאי ומחיר
+                var doProduct = _dal.Product.Read(productId)
+                    ?? throw new BO.BlNotExistsException($"Product {productId} not found");
 
                 order.Products ??= new List<ProductInOrder>();
-                //שליפת המזהה של המוצר המבוקש
-                var existingProduct = order.Products?.FirstOrDefault(p => p.Id == productId);
+                var existingProduct = order.Products.FirstOrDefault(p => p.Id == productId);
 
                 if (existingProduct != null)
                 {
-                    //אם יש מספיק במלאי
+                    // בדיקה מול המלאי ב-DAL (כמות קיימת בסל + כמות חדשה)
                     if (doProduct.amount < (existingProduct.Amount + amount))
-                        throw new BO.BlNotValidInputException("Not enough in stock");
-
-                    //עדכון הכמות של ה
+                        throw new BO.BlNotValidInputException($"Not enough in stock. You already have {existingProduct.Amount} in cart, and there are only {doProduct.amount} total.");
                     existingProduct.Amount += amount;
                 }
                 else
                 {
-                    existingProduct = new ProductInOrder(doProduct.id, doProduct.productName
-                        , doProduct.price, amount, new List<SaleInProduct>(), 0);
-                    order.Products ??= new List<ProductInOrder>();
+                    if (doProduct.amount < amount)
+                        throw new BO.BlNotValidInputException($"Not enough in stock. Only {doProduct.amount} available.");
+
+                    existingProduct = new ProductInOrder(doProduct.id, doProduct.productName,
+                        doProduct.price, amount, new List<SaleInProduct>(), 0);
                     order.Products.Add(existingProduct);
                 }
 
-                SearchSaleForProduct(existingProduct, order.Favorite); // עדכון מבצעים
-                CalcTotalPriceForProduct(existingProduct); // חישוב מחיר למוצר
-                CalcTotalPrice(order); // עדכון מחיר כולל להזמנה
+                // עדכון לוגיקה פנימית של המוצר וההזמנה
+                SearchSaleForProduct(existingProduct, order.Favorite);
+                CalcTotalPriceForProduct(existingProduct);
+                CalcTotalPrice(order);
 
-                // 4. החזרת הערך הנדרש
                 return existingProduct.SaleList;
             }
             catch (DO.DalNotFound ex)
             {
-                throw new BO.BlNotExistsException("product error in dal", ex);
+                throw new BO.BlNotExistsException("DAL Error", ex);
             }
         }
-        //חישוב מחיר סופי למוצר
-        public void CalcTotalPriceForProduct(ProductInOrder product)
-        {
-            int count = product.Amount;
-            double totalPrice = 0;
-            product.FinalPrice = 0;
-            List<SaleInProduct> salesForProduct = new List<SaleInProduct>();
-            //עבור כל מבצע ברשימה
-            foreach (var s in product.SaleList)
-            {
-                if (count < s.Amount)
-                    continue;
 
-                int sumTimesGetSale = (count / s.Amount);//כמה פעמים נכנס המבצע
-                totalPrice += sumTimesGetSale * s.Price;//צבירת מחיר
-                count -= (sumTimesGetSale * s.Amount);
-                salesForProduct.Add(s);
-                if (count == 0)
-                    break;
-
-            }
-            totalPrice += (count * product.BasePrice);
-
-            product.SaleList = salesForProduct;
-            product.FinalPrice = totalPrice;//עדכון סופי
-        }
-        //חישוב מחיר סופי להזמנה
-        public void CalcTotalPrice(BO.Order order)
-        {
-            double sumOrderPrice = 0;
-
-            if (order?.Products != null)
-                order.FinalPrice = order.Products.Sum(p => p.FinalPrice);
-
-        }
-        //ביצוע הזמנה
+        // --- 5. ביצוע הזמנה סופי (עדכון המדפים ב-DAL) ---
         public void DoOrder(BO.Order order)
         {
-            if (order == null) throw new BO.BlNotValidInputException("order cannot be null");
-            //האם קיימת רשימץ מוצרים
-            bool hasProducts = (from p in order.Products select p).Any();
-            if (!hasProducts)
+            if (order == null) throw new BO.BlNotValidInputException("Order cannot be null");
+
+            if (order.Products == null || !order.Products.Any())
                 throw new BO.BlNotValidInputException("Cannot process an empty order.");
-            //עבור כל מוצר
-            foreach (var p in order.Products)
+
+            // מעבר על כל המוצרים שנבחרו והפחתתם מהמלאי האמיתי
+            foreach (var item in order.Products)
             {
                 try
                 {
-                    //שליפת המזהה של המוצר הנוכחי
-                    var doProduct = _dal.Product.Read(p.Id);
+                    var doProduct = _dal.Product.Read(item.Id);
+                    int newStock = doProduct.amount - item.Amount;
 
-                    if (doProduct != null)
-                    {
-                        //עדכון הכמות במלאי
-                        int newAmount = doProduct.amount - p.Amount;
+                    if (newStock < 0)
+                        throw new BO.BlNotValidInputException($"Insufficient stock for: {doProduct.productName}");
 
-                        if (newAmount < 0)
-                            throw new BO.BlNotValidInputException($"Not enough stock for product: {doProduct.productName}");
+                    // יצירת אובייקט DAL חדש עם המלאי המעודכן
+                    DO.Product updatedProduct = new DO.Product(
+                        doProduct.id,
+                        doProduct.productName,
+                        doProduct.productCategory,
+                        doProduct.price,
+                        newStock
+                    );
 
-                        // יצירת אובייקט מעודכן ושליחתו לעדכון בפונקציה
-                        DO.Product updatedProduct = new DO.Product(
-                            doProduct.id,
-                            doProduct.productName,
-                            doProduct.productCategory,
-                            doProduct.price,
-                            newAmount
-                        );
-
-                        _dal.Product.Update(updatedProduct);
-                    }
+                    // עדכון ה-DAL
+                    _dal.Product.Update(updatedProduct);
                 }
                 catch (DO.DalNotFound ex)
                 {
-                    throw new BO.BlNotExistsException($"product with ID {p.Id} was not found", ex);
+                    throw new BO.BlNotExistsException($"Product {item.Id} not found in database during final checkout", ex);
                 }
             }
-
-
+            // הערה: כאן כדאי להוסיף קריאה ל-_dal.Order.Create(order) כדי לשמור את היסטוריית ההזמנה
         }
-
     }
 }
