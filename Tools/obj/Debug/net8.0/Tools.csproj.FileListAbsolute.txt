@@ -9,3 +9,15 @@ M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\Tools.dll
 M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\refint\Tools.dll
 M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\Tools.pdb
 M:\DotNet_5335_1916+exceptions\Tools\obj\Debug\net8.0\ref\Tools.dll
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\bin\Debug\net8.0\Tools.deps.json
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\bin\Debug\net8.0\Tools.dll
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\bin\Debug\net8.0\Tools.pdb
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\obj\Debug\net8.0\Tools.GeneratedMSBuildEditorConfig.editorconfig
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\obj\Debug\net8.0\Tools.AssemblyInfoInputs.cache
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\obj\Debug\net8.0\Tools.AssemblyInfo.cs
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\obj\Debug\net8.0\Tools.csproj.CoreCompileInputs.cache
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\obj\Debug\net8.0\Tools.sourcelink.json
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\obj\Debug\net8.0\Tools.dll
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\obj\Debug\net8.0\refint\Tools.dll
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\obj\Debug\net8.0\Tools.pdb
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\Tools\obj\Debug\net8.0\ref\Tools.dll

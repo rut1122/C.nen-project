@@ -11,4 +11,13 @@
     <ProjectReference Include="..\DalFacade\DalFacade.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="dal-config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="products.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

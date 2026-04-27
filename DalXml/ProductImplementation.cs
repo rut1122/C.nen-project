@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using DalApi;
 using DO;
 using System.Xml.Serialization;
+using System.Xml.Linq;
 
 namespace Dal;
 
@@ -43,19 +44,42 @@ internal class ProductImplementation : IProduct
 
     // --- מימוש ה-CRUD ---
 
+    //public int Create(Product item)
+    //{
+    //    //אני שואבת את כל הרשימה הקיימת מה - XML
+    //    //List<Product> products = LoadProducts();
+
+    //    //בודקת שאין כבר מוצר עם אותו ID, חבל שיהיו כפילויות שיבלבלו אותנו
+    //    //if (products.Any(p => p.id == item.id))
+    //    //    throw new Exception($"Product with ID {item.id} already exists");
+
+    //    //מוסיפה את הפריט החדש לרשימה ומעדכנת את הקובץ בבת אחת
+    //    //products.Add(item);
+    //    //SaveProducts(products);
+    //    //return item.id;
+
+    //}
     public int Create(Product item)
     {
-        // אני שואבת את כל הרשימה הקיימת מה-XML
+        // 1. קריאת ה-ID הבא מהקובץ
+        string configPath = @"..\xml\config.xml";
+        XElement config = XElement.Load(configPath);
+        int nextId = (int)config.Element("ProductNum")!;
+
+        // 2. יצירת עותק חדש של ה-record עם ה-ID האוטומטי
+        // זה פותר את השגיאה כי אנחנו לא "משנים" אלא יוצרים חדש עם הנתון הנכון
+        Product newItem = item with { id = nextId };
+
+        // 3. עדכון קובץ הקונפיגורציה
+        config.Element("ProductNum")!.SetValue(nextId + 1);
+        config.Save(configPath);
+
+        // 4. הוספה לרשימה ושמירה (שימי לב שמוסיפים את newItem)
         List<Product> products = LoadProducts();
-
-        // בודקת שאין כבר מוצר עם אותו ID, חבל שיהיו כפילויות שיבלבלו אותנו
-        if (products.Any(p => p.id == item.id))
-            throw new Exception($"Product with ID {item.id} already exists");
-
-        // מוסיפה את הפריט החדש לרשימה ומעדכנת את הקובץ בבת אחת
-        products.Add(item);
+        products.Add(newItem);
         SaveProducts(products);
-        return item.id;
+
+        return nextId;
     }
 
     public Product? Read(int id)
