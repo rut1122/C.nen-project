@@ -177,6 +177,21 @@ namespace DalTest
 
         private static Customer AskCustomer(int code = 0)
         {
+            //Console.WriteLine("enter customer id:");
+            //int id;
+            //if (!int.TryParse(Console.ReadLine(), out id)) id = code;
+
+            //Console.WriteLine("enter name:");
+            //string name = Console.ReadLine() ?? "";
+
+            //Console.WriteLine("enter address:");
+            //string? address = Console.ReadLine();
+
+            //Console.WriteLine("enter phone:");
+            //int phone;
+            //if (!int.TryParse(Console.ReadLine(), out phone)) phone = 0;
+
+            //return new Customer(id, name, address, phone);
             Console.WriteLine("enter customer id:");
             int id;
             if (!int.TryParse(Console.ReadLine(), out id)) id = code;
@@ -187,11 +202,16 @@ namespace DalTest
             Console.WriteLine("enter address:");
             string? address = Console.ReadLine();
 
+            // --- הוספה של קליטת אימייל ---
+            Console.WriteLine("enter email:");
+            string? email = Console.ReadLine();
+
             Console.WriteLine("enter phone:");
             int phone;
             if (!int.TryParse(Console.ReadLine(), out phone)) phone = 0;
 
-            return new Customer(id, name, address, phone);
+            // שליחת 5 פרמטרים לבנאי לפי הסדר החדש ב-DO
+            return new Customer(id, name, address, email, phone);
         }
 
         //private static Customer AskCustomer(int code = 0)

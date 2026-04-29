@@ -30,10 +30,11 @@ namespace UI
         private void InitializeComponent()
         {
             dataGridView1 = new DataGridView();
-            comboBox1 = new ComboBox();
+            cmbCategoryFilter = new ComboBox();
             add = new Button();
             updeate = new Button();
             delete = new Button();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -47,13 +48,14 @@ namespace UI
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
-            // comboBox1
+            // cmbCategoryFilter
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(453, 108);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 1;
+            cmbCategoryFilter.FormattingEnabled = true;
+            cmbCategoryFilter.Location = new Point(453, 108);
+            cmbCategoryFilter.Name = "cmbCategoryFilter";
+            cmbCategoryFilter.Size = new Size(151, 28);
+            cmbCategoryFilter.TabIndex = 1;
+            cmbCategoryFilter.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // add
             // 
@@ -83,16 +85,28 @@ namespace UI
             delete.TabIndex = 4;
             delete.Text = "מחיקה";
             delete.UseVisualStyleBackColor = true;
+            delete.Click += delete_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(53, 18);
+            button1.Name = "button1";
+            button1.Size = new Size(134, 29);
+            button1.TabIndex = 5;
+            button1.Text = "חזרה לתפריט";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // ProductListForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(delete);
             Controls.Add(updeate);
             Controls.Add(add);
-            Controls.Add(comboBox1);
+            Controls.Add(cmbCategoryFilter);
             Controls.Add(dataGridView1);
             Name = "ProductListForm";
             Text = "רשימת מוצרים";
@@ -104,9 +118,10 @@ namespace UI
         #endregion
 
         private DataGridView dataGridView1;
-        private ComboBox comboBox1;
+        private ComboBox cmbCategoryFilter;
         private Button add;
         private Button updeate;
         private Button delete;
+        private Button button1;
     }
 }

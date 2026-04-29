@@ -14,10 +14,9 @@ namespace BlImplementation
 
         public int Create(Sale item)
         {
-            if (item.Id <= 0)
-                throw new BO.BlNotValidInputException("Sale ID must be positive");
             try
             {
+                // אנחנו שולחים ל-DAL והוא כבר יחזיר לנו את ה-ID החדש שהוא ייצר
                 return _dal.Sale.Create(BO.Tools.ConvertSaleToDO(item));
             }
             catch (DO.Exceptions.DalIDExists ex)

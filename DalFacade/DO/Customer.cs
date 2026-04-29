@@ -1,7 +1,7 @@
 ﻿namespace DO;
 
-public record Customer(int id, string name, string? adress, int phone)
+public record Customer(int id, string name, string? adress,string? Email, int phone)
 {
-    public Customer() : this(2, "tamar", "gefen", 053416989) { }
+    public Customer() : this(2, "tamar", "gefen","", 053416989) { }
 }
 

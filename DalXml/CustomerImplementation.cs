@@ -17,6 +17,7 @@ namespace Dal
         const string CUSTOMER_NAME = "CustomerName";
         const string ADDRESS = "Address";
         const string PHONE = "Phone";
+        const string EMAIL = "Email";
 
         public int Create(Customer item)
         {
@@ -32,6 +33,7 @@ namespace Dal
                 new XElement(CUSTOMER_ID, item.id),
                 new XElement(CUSTOMER_NAME, item.name),
                 new XElement(ADDRESS, item.adress),
+                new XElement(EMAIL, item.Email),
                 new XElement(PHONE, item.phone)));
 
             file.Save(path);
@@ -65,6 +67,7 @@ namespace Dal
                 int.Parse(c.Element(CUSTOMER_ID).Value),
                 c.Element(CUSTOMER_NAME).Value,
                 c.Element(ADDRESS).Value,
+                c.Element(EMAIL)?.Value,
                 int.Parse(c.Element(PHONE).Value)
             );
         }
@@ -82,6 +85,7 @@ namespace Dal
                 int.Parse(c.Element(CUSTOMER_ID).Value),
                 c.Element(CUSTOMER_NAME).Value,
                 c.Element(ADDRESS).Value,
+                c.Element(EMAIL)?.Value,
                 int.Parse(c.Element(PHONE).Value)
             ));
 
@@ -103,6 +107,7 @@ namespace Dal
 
             customer.Element(CUSTOMER_NAME).SetValue(item.name);
             customer.Element(ADDRESS).SetValue(item.adress ?? "");
+            customer.Element(EMAIL).SetValue(item.Email ?? "");
             customer.Element(PHONE).SetValue(item.phone);
 
             file.Save(path);

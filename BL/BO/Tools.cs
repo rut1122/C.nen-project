@@ -37,11 +37,10 @@ namespace BO
 
         public static BO.Customer ConvertCustomerToBO(DO.Customer customer)
         {
-            return new BO.Customer(customer.id, customer.name, customer.adress, customer.phone);
-        }
+            return new BO.Customer(customer.id, customer.name, customer.adress, customer.Email, customer.phone);        }
         public static DO.Customer ConvertCustomerToDO(Customer customer)
         {
-            return new DO.Customer(customer.Id, customer.Name, customer.Adress, customer.Phone);
+            return new DO.Customer(customer.Id, customer.Name, customer.Address, customer.Email, customer.Phone);
         }
         public static Sale ConvertSaleToBO(DO.Sale sale)
         {

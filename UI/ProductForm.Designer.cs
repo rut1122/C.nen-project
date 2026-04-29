@@ -38,6 +38,7 @@
             txtAmount = new TextBox();
             btnAdd = new Button();
             txtId = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -107,6 +108,7 @@
             txtAmount.Name = "txtAmount";
             txtAmount.Size = new Size(125, 27);
             txtAmount.TabIndex = 7;
+            txtAmount.TextChanged += txtAmount_TextChanged;
             // 
             // btnAdd
             // 
@@ -127,11 +129,22 @@
             txtId.Visible = false;
             txtId.TextChanged += textBox1_TextChanged;
             // 
+            // button1
+            // 
+            button1.Location = new Point(130, 39);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 10;
+            button1.Text = "חזרה";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // ProductForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(txtId);
             Controls.Add(btnAdd);
             Controls.Add(txtAmount);
@@ -161,5 +174,6 @@
         private TextBox txtAmount;
         private Button btnAdd;
         private TextBox txtId;
+        private Button button1;
     }
 }

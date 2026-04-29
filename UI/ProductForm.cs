@@ -97,5 +97,17 @@ namespace UI
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+          
+        }
+
+        private void txtAmount_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

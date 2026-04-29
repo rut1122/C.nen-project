@@ -3,56 +3,128 @@
   "WorkspaceRootPath": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\saleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\saleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\saleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\saleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\salelistwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\salelistwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\salelistwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\salelistwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\salelistwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\salelistwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\bl\\blimplementation\\saleimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\saleimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\frmmanagermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\frmmanagermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\ui\\frmmanagermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\frmmanagermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\bl\\bo\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bo\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\daltest\\daltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|solutionrelative:daltest\\daltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\customerlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\customerlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\dalxml\\dalxml.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\dalxml.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\customerlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\customerlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\dalxml\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|solutionrelative:daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|solutionrelative:daltest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\bl\\do\\dalnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\do\\dalnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\bl\\bo\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bo\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\dalfacade\\do\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\do\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\bl\\bo\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bo\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\productform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\dalxml\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\productform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\productlistform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productlistform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\bl\\blimplementation\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\productimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\ui\\productlistform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productlistform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\dalxml\\products.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{6FE52EF9-97EC-48B2-9CC6-A3B5CA125066}|DalXml\\DalXml.csproj|solutionrelative:dalxml\\products.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|Solution Items{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\xml\\products.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|Solution Items{0A02B80D-4B25-478E-8E24-9D5D45240DA7}|solutionrelative:xml\\products.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|d:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\c# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\c.nen-project\\ui\\productlistform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productlistform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,170 +134,401 @@
       "DocumentGroups": [
         {
           "DockedWidth": 130,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductListForm.cs",
-              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductListForm.cs",
-              "RelativeDocumentMoniker": "UI\\ProductListForm.cs",
-              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductListForm.cs",
-              "RelativeToolTip": "UI\\ProductListForm.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAawDIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T21:08:36.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductForm.cs [Design]",
-              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.cs",
-              "RelativeDocumentMoniker": "UI\\ProductForm.cs",
-              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.cs [Design]",
-              "RelativeToolTip": "UI\\ProductForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T20:53:06.24Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductForm.resx",
-              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.resx",
-              "RelativeDocumentMoniker": "UI\\ProductForm.resx",
-              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.resx",
-              "RelativeToolTip": "UI\\ProductForm.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-04-27T20:50:12.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductImplementation.cs",
-              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BlImplementation\\ProductImplementation.cs",
-              "RelativeDocumentMoniker": "BL\\BlImplementation\\ProductImplementation.cs",
-              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BlImplementation\\ProductImplementation.cs",
-              "RelativeToolTip": "BL\\BlImplementation\\ProductImplementation.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAkwEsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T16:27:42.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductImplementation.cs",
-              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalXml\\ProductImplementation.cs",
-              "RelativeDocumentMoniker": "DalXml\\ProductImplementation.cs",
-              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalXml\\ProductImplementation.cs",
-              "RelativeToolTip": "DalXml\\ProductImplementation.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAowHMAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T14:33:48.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 24,
               "Title": "ProductForm.Designer.cs",
               "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.Designer.cs",
               "RelativeDocumentMoniker": "UI\\ProductForm.Designer.cs",
               "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.Designer.cs",
               "RelativeToolTip": "UI\\ProductForm.Designer.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T13:57:30.06Z",
+              "WhenOpened": "2026-04-28T17:19:16.249Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaleListWindow.Designer.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\SaleListWindow.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\SaleListWindow.Designer.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\SaleListWindow.Designer.cs",
+              "RelativeToolTip": "UI\\SaleListWindow.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T20:39:15.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaleForm.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\SaleForm.cs",
+              "RelativeDocumentMoniker": "UI\\SaleForm.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\SaleForm.cs",
+              "RelativeToolTip": "UI\\SaleForm.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAYwGsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T20:18:05.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductForm.cs",
-              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.cs",
-              "RelativeDocumentMoniker": "UI\\ProductForm.cs",
-              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.cs",
-              "RelativeToolTip": "UI\\ProductForm.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAA6wGEAAAAAAAAA",
+              "Title": "SaleForm.cs [Design]",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\SaleForm.cs",
+              "RelativeDocumentMoniker": "UI\\SaleForm.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\SaleForm.cs [Design]",
+              "RelativeToolTip": "UI\\SaleForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T13:56:32.031Z",
+              "WhenOpened": "2026-04-28T20:13:35.547Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SaleListWindow.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\SaleListWindow.cs",
+              "RelativeDocumentMoniker": "UI\\SaleListWindow.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\SaleListWindow.cs",
+              "RelativeToolTip": "UI\\SaleListWindow.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAwGUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T20:05:50Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "products.xml",
-              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalXml\\products.xml",
-              "RelativeDocumentMoniker": "DalXml\\products.xml",
-              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalXml\\products.xml",
-              "RelativeToolTip": "DalXml\\products.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-04-22T12:13:12.658Z",
+              "DocumentIndex": 2,
+              "Title": "SaleListWindow.cs [Design]",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\SaleListWindow.cs",
+              "RelativeDocumentMoniker": "UI\\SaleListWindow.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\SaleListWindow.cs [Design]",
+              "RelativeToolTip": "UI\\SaleListWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T20:04:30.732Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BO\\Sale.cs",
+              "RelativeDocumentMoniker": "BL\\BO\\Sale.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BO\\Sale.cs",
+              "RelativeToolTip": "BL\\BO\\Sale.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA7wCAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T20:01:37.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SaleImplementation.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BlImplementation\\SaleImplementation.cs",
+              "RelativeDocumentMoniker": "BL\\BlImplementation\\SaleImplementation.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BlImplementation\\SaleImplementation.cs",
+              "RelativeToolTip": "BL\\BlImplementation\\SaleImplementation.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T20:01:25.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerImplementation.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalXml\\CustomerImplementation.cs",
+              "RelativeDocumentMoniker": "DalXml\\CustomerImplementation.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalXml\\CustomerImplementation.cs",
+              "RelativeToolTip": "DalXml\\CustomerImplementation.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAYwFcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T19:04:55.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Initialization.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalTest\\Initialization.cs",
+              "RelativeDocumentMoniker": "DalTest\\Initialization.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalTest\\Initialization.cs",
+              "RelativeToolTip": "DalTest\\Initialization.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAYwFwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T19:03:26.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalTest\\Program.cs",
+              "RelativeDocumentMoniker": "DalTest\\Program.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalTest\\Program.cs",
+              "RelativeToolTip": "DalTest\\Program.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAkwNUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T19:01:03.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DalTest",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalTest\\DalTest.csproj",
+              "RelativeDocumentMoniker": "DalTest\\DalTest.csproj",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalTest\\DalTest.csproj",
+              "RelativeToolTip": "DalTest\\DalTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-28T19:01:01.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalFacade\\DO\\Customer.cs",
+              "RelativeDocumentMoniker": "DalFacade\\DO\\Customer.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalFacade\\DO\\Customer.cs",
+              "RelativeToolTip": "DalFacade\\DO\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T18:54:58.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DalNotFound.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\DO\\DalNotFound.cs",
+              "RelativeDocumentMoniker": "BL\\DO\\DalNotFound.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\DO\\DalNotFound.cs",
+              "RelativeToolTip": "BL\\DO\\DalNotFound.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T18:54:30.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Tools.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BO\\Tools.cs",
+              "RelativeDocumentMoniker": "BL\\BO\\Tools.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BO\\Tools.cs",
+              "RelativeToolTip": "BL\\BO\\Tools.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwCcAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T18:27:24.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BO\\Customer.cs",
+              "RelativeDocumentMoniker": "BL\\BO\\Customer.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BO\\Customer.cs",
+              "RelativeToolTip": "BL\\BO\\Customer.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwBsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T18:15:07.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomerForm.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\CustomerForm.cs",
+              "RelativeDocumentMoniker": "UI\\CustomerForm.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\CustomerForm.cs",
+              "RelativeToolTip": "UI\\CustomerForm.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwBsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T18:10:57.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "products.xml",
-              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\xml\\products.xml",
-              "RelativeDocumentMoniker": "xml\\products.xml",
-              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\xml\\products.xml",
-              "RelativeToolTip": "xml\\products.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-04-22T12:08:56.328Z",
+              "Title": "CustomerForm.cs [Design]",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\CustomerForm.cs",
+              "RelativeDocumentMoniker": "UI\\CustomerForm.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\CustomerForm.cs [Design]",
+              "RelativeToolTip": "UI\\CustomerForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T18:05:22.451Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerListForm.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\CustomerListForm.cs",
+              "RelativeDocumentMoniker": "UI\\CustomerListForm.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\CustomerListForm.cs",
+              "RelativeToolTip": "UI\\CustomerListForm.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAkwHcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:49:37.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "CustomerListForm.cs [Design]",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\CustomerListForm.cs",
+              "RelativeDocumentMoniker": "UI\\CustomerListForm.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\CustomerListForm.cs [Design]",
+              "RelativeToolTip": "UI\\CustomerListForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:43:45.161Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductListForm.Designer.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductListForm.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\ProductListForm.Designer.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductListForm.Designer.cs",
+              "RelativeToolTip": "UI\\ProductListForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T17:34:59.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "ProductListForm.resx",
               "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductListForm.resx",
               "RelativeDocumentMoniker": "UI\\ProductListForm.resx",
               "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductListForm.resx",
               "RelativeToolTip": "UI\\ProductListForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-04-22T12:00:45.111Z",
+              "WhenOpened": "2026-04-28T17:29:26.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\Form1.cs",
-              "RelativeDocumentMoniker": "UI\\Form1.cs",
-              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\Form1.cs",
-              "RelativeToolTip": "UI\\Form1.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAADgvwsAAAAMAAAA",
+              "DocumentIndex": 27,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BO\\Enums.cs",
+              "RelativeDocumentMoniker": "BL\\BO\\Enums.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\BL\\BO\\Enums.cs",
+              "RelativeToolTip": "BL\\BO\\Enums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T11:56:35.422Z",
+              "WhenOpened": "2026-04-28T17:16:49.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DalXml",
-              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalXml\\DalXml.csproj",
-              "RelativeDocumentMoniker": "DalXml\\DalXml.csproj",
-              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\DalXml\\DalXml.csproj",
-              "RelativeToolTip": "DalXml\\DalXml.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-22T11:46:28.342Z",
+              "DocumentIndex": 28,
+              "Title": "ProductForm.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.cs",
+              "RelativeDocumentMoniker": "UI\\ProductForm.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.cs",
+              "RelativeToolTip": "UI\\ProductForm.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAewGgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T16:31:16.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
+              "Title": "ProductForm.cs [Design]",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.cs",
+              "RelativeDocumentMoniker": "UI\\ProductForm.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductForm.cs [Design]",
+              "RelativeToolTip": "UI\\ProductForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T16:30:52.132Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductListForm.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductListForm.cs",
+              "RelativeDocumentMoniker": "UI\\ProductListForm.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductListForm.cs",
+              "RelativeToolTip": "UI\\ProductListForm.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAUwH0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T16:28:54.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ProductListForm.cs [Design]",
               "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductListForm.cs",
               "RelativeDocumentMoniker": "UI\\ProductListForm.cs",
               "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\ProductListForm.cs [Design]",
               "RelativeToolTip": "UI\\ProductListForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T11:39:03.389Z",
+              "WhenOpened": "2026-04-28T16:28:05.017Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmManagerMenu.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\frmManagerMenu.cs",
+              "RelativeDocumentMoniker": "UI\\frmManagerMenu.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\frmManagerMenu.cs",
+              "RelativeToolTip": "UI\\frmManagerMenu.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAwDUAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T16:19:19.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\Form1.cs",
+              "RelativeToolTip": "UI\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:44:30.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\Form1.cs [Design]",
+              "RelativeToolTip": "UI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:44:27.506Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmManagerMenu.cs [Design]",
+              "DocumentMoniker": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\frmManagerMenu.cs",
+              "RelativeDocumentMoniker": "UI\\frmManagerMenu.cs",
+              "ToolTip": "D:\\\u05EA\u05D9\u05DB\u05E0\u05D5\u05EA\\\u05E9\u05E0\u05D4 \u05D1\\C# net\\\u05DE\u05E2\u05D5\u05D3\u05DB\u05DF\\C.nen-project\\UI\\frmManagerMenu.cs [Design]",
+              "RelativeToolTip": "UI\\frmManagerMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T15:42:41.263Z",
               "EditorCaption": " [Design]"
             }
           ]

@@ -9,12 +9,19 @@ namespace UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // יצירת מופע חדש של מסך רשימת המוצרים
-            ProductListForm listForm = new ProductListForm();
+            //// יצירת מופע חדש של מסך רשימת המוצרים
+            //ProductListForm listForm = new ProductListForm();
 
+            //// הצגת המסך
+            //listForm.ShowDialog();
+            // יצירת מופע של המסך החדש
+            frmManagerMenu menu = new frmManagerMenu();
             // הצגת המסך
-            listForm.ShowDialog();
+            menu.Show();
+            // (אופציונלי) הסתרת המסך הנוכחי
+            this.Hide();
         }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {

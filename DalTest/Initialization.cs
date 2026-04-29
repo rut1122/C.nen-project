@@ -77,11 +77,19 @@ public class Initialization
         Console.WriteLine("--- Initialization Finished Successfully ---");
     }
 
+    //public static void CreateCustomer()
+    //{
+    //    s_dal.Customer.Create(new Customer(101, "Alice Johnson", "alice@example.com", 0501234567)); // מועדון
+    //    s_dal.Customer.Create(new Customer(102, "Bob Smith", "bob.s@workmail.com", 0529876543));
+    //    s_dal.Customer.Create(new Customer(103, "Charlie Brown", "charlie@gmail.com", 0541112223));
+    //}
+
     public static void CreateCustomer()
     {
-        s_dal.Customer.Create(new Customer(101, "Alice Johnson", "alice@example.com", 0501234567)); // מועדון
-        s_dal.Customer.Create(new Customer(102, "Bob Smith", "bob.s@workmail.com", 0529876543));
-        s_dal.Customer.Create(new Customer(103, "Charlie Brown", "charlie@gmail.com", 0541112223));
+        // סדר הפרמטרים: id, name, address, email, phone
+        s_dal.Customer.Create(new Customer(101, "Alice Johnson", "123 Maple St", "alice@example.com", 0501234567));
+        s_dal.Customer.Create(new Customer(102, "Bob Smith", "456 Oak Rd", "bob.s@workmail.com", 0529876543));
+        s_dal.Customer.Create(new Customer(103, "Charlie Brown", "789 Pine Ln", "charlie@gmail.com", 0541112223));
     }
 
     public static void CreateSale()

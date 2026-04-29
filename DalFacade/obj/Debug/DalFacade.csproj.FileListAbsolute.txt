@@ -45,9 +45,8 @@ E:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\DalFacade.dll
 E:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\refint\DalFacade.dll
 E:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\DalFacade.pdb
 E:\DotNet_5335_1916+exceptions\DalFacade\obj\Debug\ref\DalFacade.dll
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalFacade.deps.json
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalFacade.dll
-D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalFacade.pdb
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalFacade.deps.json
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
@@ -56,4 +55,5 @@ D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.dll
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\refint\DalFacade.dll
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.pdb
+D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalFacade.pdb
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\ref\DalFacade.dll
