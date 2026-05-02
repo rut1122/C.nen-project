@@ -11,13 +11,13 @@ namespace BO
     {
         public int Id { get; set; }
         public string ProductName { get; set; }
-        public Category? ProductCategory { get; set; }
+        public Category ProductCategory { get; set; }
         public double Price { get; set; }
         public int Amount { get; set; }
 
         public override string ToString() => this.ToStringProperty();
     
-        public Product(int id, string productName, Category? productCategory, double price, int amount)
+        public Product(int id, string productName, Category productCategory, double price, int amount)
         {
             this.Id = id;
             this.ProductName = productName;

@@ -5,6 +5,7 @@ namespace UI
         public Form1()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -19,11 +20,26 @@ namespace UI
             // הצגת המסך
             menu.Show();
             // (אופציונלי) הסתרת המסך הנוכחי
-            this.Hide();
+            //this.Hide();
         }
 
+        private void btnSales_Click(object sender, EventArgs e)
+        {
+            // יצירת מופע חדש של מסך העגלה
+            CartForm cart = new CartForm();
 
+            // הצגת המסך
+            cart.Show();
+
+            // אופציונלי: אם את רוצה שהמסך הראשי ייעלם כשהעגלה נפתחת:
+            // this.Hide(); 
+        }
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

@@ -11,7 +11,7 @@ namespace BlImplementation
         private readonly DalApi.IDal _dal = DalApi.Factory.Get;
 
         // --- 1. חיפוש מבצעים למוצר ---
-        public void SearchSaleForProduct(ProductInOrder product, bool isFavorite)
+        public void SearchSaleForProduct(ProductInOrder product, bool isIsClubMember)
         {
             var now = DateTime.Now;
 
@@ -23,7 +23,7 @@ namespace BlImplementation
                              select s;
 
             // 2. סינון מועדון
-            if (!isFavorite)
+            if (!isIsClubMember)
             {
                 salesQuery = salesQuery.Where(s => !s.onlyClub);
             }
@@ -88,32 +88,33 @@ namespace BlImplementation
         {
             try
             {
-                // שליפה מהדאל לבדיקת מלאי ומחיר
                 var doProduct = _dal.Product.Read(productId)
                     ?? throw new BO.BlNotExistsException($"Product {productId} not found");
 
                 order.Products ??= new List<ProductInOrder>();
                 var existingProduct = order.Products.FirstOrDefault(p => p.Id == productId);
 
+                // בדיקת מלאי: amount מייצג את הכמות הסופית הרצויה בסל
+                if (doProduct.amount < amount)
+                {
+                    throw new BO.BlNotValidInputException($"Not enough in stock. Only {doProduct.amount} available.");
+                }
+
                 if (existingProduct != null)
                 {
-                    // בדיקה מול המלאי ב-DAL (כמות קיימת בסל + כמות חדשה)
-                    if (doProduct.amount < (existingProduct.Amount + amount))
-                        throw new BO.BlNotValidInputException($"Not enough in stock. You already have {existingProduct.Amount} in cart, and there are only {doProduct.amount} total.");
-                    existingProduct.Amount += amount;
+                    // עדכון לכמות הסופית
+                    existingProduct.Amount = amount;
                 }
                 else
                 {
-                    if (doProduct.amount < amount)
-                        throw new BO.BlNotValidInputException($"Not enough in stock. Only {doProduct.amount} available.");
-
+                    // הוספת מוצר חדש לסל
                     existingProduct = new ProductInOrder(doProduct.id, doProduct.productName,
                         doProduct.price, amount, new List<SaleInProduct>(), 0);
                     order.Products.Add(existingProduct);
                 }
 
-                // עדכון לוגיקה פנימית של המוצר וההזמנה
-                SearchSaleForProduct(existingProduct, order.Favorite);
+                // חישובים ורענון
+                SearchSaleForProduct(existingProduct, order.IsClubMember);
                 CalcTotalPriceForProduct(existingProduct);
                 CalcTotalPrice(order);
 

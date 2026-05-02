@@ -61,7 +61,7 @@ using System.Collections.Generic;
             Order currentOrder = new Order
             {
                 Products = new List<ProductInOrder>(),
-                Favorite = false
+                IsClubMember = false
             };
 
             bool addMore = true;

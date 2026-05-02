@@ -17,7 +17,7 @@ namespace UI
         // משתנה שיגיד לנו אם אנחנו במצב עדכון או הוספה
         bool isUpdate = false;
         BlApi.IBl bl = BlApi.Factory.Get;
-        public ProductForm()
+        public ProductForm(int id)
         {
             InitializeComponent();
         }
@@ -34,6 +34,10 @@ namespace UI
             cmbCategory.SelectedItem = productToUpdate.ProductCategory;
 
             btnAdd.Text = "עדכן מוצר"; // שינוי הטקסט על הכפתור
+        }
+
+        public ProductForm()
+        {
         }
 
         private void label3_Click(object sender, EventArgs e)

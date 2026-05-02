@@ -57,3 +57,15 @@ D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\DalFacade.pdb
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\bin\DalFacade.pdb
 D:\תיכנות\שנה ב\C# net\מעודכן\C.nen-project\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\Users\1\Desktop\.NET PRO\C.nen-project\bin\DalFacade.deps.json
+C:\Users\1\Desktop\.NET PRO\C.nen-project\bin\DalFacade.dll
+C:\Users\1\Desktop\.NET PRO\C.nen-project\bin\DalFacade.pdb
+C:\Users\1\Desktop\.NET PRO\C.nen-project\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\.NET PRO\C.nen-project\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\.NET PRO\C.nen-project\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\Users\1\Desktop\.NET PRO\C.nen-project\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\.NET PRO\C.nen-project\DalFacade\obj\Debug\DalFacade.sourcelink.json
+C:\Users\1\Desktop\.NET PRO\C.nen-project\DalFacade\obj\Debug\DalFacade.dll
+C:\Users\1\Desktop\.NET PRO\C.nen-project\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\Users\1\Desktop\.NET PRO\C.nen-project\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\1\Desktop\.NET PRO\C.nen-project\DalFacade\obj\Debug\ref\DalFacade.dll

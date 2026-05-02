@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\תיכנות\\שנה ב\\C# net\\מעודכן\\C.nen-project\\Tools\\Tools.csproj": {}
+    "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\Tools\\Tools.csproj": {}
   },
   "projects": {
-    "D:\\תיכנות\\שנה ב\\C# net\\מעודכן\\C.nen-project\\Tools\\Tools.csproj": {
+    "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\Tools\\Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\תיכנות\\שנה ב\\C# net\\מעודכן\\C.nen-project\\Tools\\Tools.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\Tools\\Tools.csproj",
         "projectName": "Tools",
-        "projectPath": "D:\\תיכנות\\שנה ב\\C# net\\מעודכן\\C.nen-project\\Tools\\Tools.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\תיכנות\\שנה ב\\C# net\\מעודכן\\C.nen-project\\Tools\\obj\\",
+        "projectPath": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\Tools\\Tools.csproj",
+        "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\Tools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

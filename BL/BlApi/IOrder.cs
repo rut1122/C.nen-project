@@ -13,6 +13,6 @@ namespace BlApi
         public void CalcTotalPriceForProduct(ProductInOrder product);
         public void CalcTotalPrice(BO.Order order);
         public void DoOrder(BO.Order order);
-        public void SearchSaleForProduct(ProductInOrder product,bool favorite);
+        public void SearchSaleForProduct(ProductInOrder product,bool IsClubMember);
     }
 }

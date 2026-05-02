@@ -35,9 +35,21 @@ namespace BO
         }
         //המרה 
 
-        public static BO.Customer ConvertCustomerToBO(DO.Customer customer)
+        public static BO.Customer? ConvertCustomerToBO(DO.Customer customer)
         {
-            return new BO.Customer(customer.id, customer.name, customer.adress, customer.Email, customer.phone);        }
+            // הגנה: אם הלקוח שהגיע מה-DAL הוא null, נחזיר null
+            if (customer == null) return null;
+
+            // שליחת הנתונים ישירות לבנאי של BO.Customer לפי הסדר המצוין בשגיאה:
+            // (int id, string name, string? address, string? email, int phone)
+            return new BO.Customer(
+                customer.id,
+                customer.name,
+                customer.adress,
+                customer.Email,
+                customer.phone
+            );
+        }
         public static DO.Customer ConvertCustomerToDO(Customer customer)
         {
             return new DO.Customer(customer.Id, customer.Name, customer.Address, customer.Email, customer.Phone);

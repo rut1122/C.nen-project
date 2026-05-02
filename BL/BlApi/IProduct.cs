@@ -15,6 +15,6 @@ namespace BlApi
         IEnumerable<BO.Product?> ReadAll(Func<BO.Product, bool>? filter = null);
         void Update(BO.Product item);
         void Delete(int id);
-        public void IsValid(ProductInOrder product, bool favorite);
+        public void IsValid(ProductInOrder product, bool IsClubMember);
     }
 }

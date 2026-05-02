@@ -9,16 +9,16 @@ namespace BO
 {
     public class Order
     {
-        public bool Favorite { get; set; }
+        public bool IsClubMember { get; set; }
         public List<ProductInOrder> Products { get; set; }
         public double FinalPrice { get; set; }
 
 
         public override string ToString() => this.ToStringProperty();
      
-        public Order(bool favorite, List<ProductInOrder> products, double finalPrice)
+        public Order(bool IsClubMember, List<ProductInOrder> products, double finalPrice)
         {
-            this.Favorite = favorite;
+            this.IsClubMember = IsClubMember;
             this.Products = products;
             this.FinalPrice = finalPrice;
         }

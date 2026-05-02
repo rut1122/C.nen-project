@@ -15,6 +15,7 @@ namespace UI
         public frmManagerMenu()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -32,8 +33,8 @@ namespace UI
         private void button4_Click(object sender, EventArgs e)
         {
             // פתיחה של מסך הכניסה הראשי
-            Form1 loginMenu = new Form1();
-            loginMenu.Show();
+            //Form1 loginMenu = new Form1();
+            //loginMenu.Show();
 
             // סגירה סופית של התפריט הנוכחי
             this.Close();

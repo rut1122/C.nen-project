@@ -87,8 +87,8 @@ internal class ProductImplementation : IProduct
         }
     }
 
-    // מימוש מדויק לפי הממשק שלך: void ושם פרמטר favorite
-    public void IsValid(ProductInOrder product, bool favorite)
+    // מימוש מדויק לפי הממשק שלך: void ושם פרמטר IsClubMember
+    public void IsValid(ProductInOrder product, bool IsClubMember)
     {
         if (product.Id <= 0)
             throw new BO.BlNotValidInputException("Invalid product id");

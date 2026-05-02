@@ -28,45 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             btnAdmin = new Button();
             btnSales = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // btnAdmin
             // 
-            btnAdmin.Location = new Point(550, 219);
+            btnAdmin.FlatAppearance.BorderColor = Color.WhiteSmoke;
+            btnAdmin.FlatAppearance.MouseOverBackColor = Color.Pink;
+            btnAdmin.FlatStyle = FlatStyle.Flat;
+            btnAdmin.Font = new Font("Snap ITC", 16F, FontStyle.Bold);
+            btnAdmin.Location = new Point(980, 452);
             btnAdmin.Name = "btnAdmin";
-            btnAdmin.Size = new Size(155, 72);
+            btnAdmin.Size = new Size(278, 203);
             btnAdmin.TabIndex = 0;
-            btnAdmin.Text = "כניסת מנהל";
+            btnAdmin.Text = "לניהול המלאי";
             btnAdmin.UseVisualStyleBackColor = true;
             btnAdmin.Click += button1_Click;
             // 
             // btnSales
             // 
-            btnSales.Location = new Point(352, 218);
+            btnSales.FlatAppearance.BorderColor = Color.WhiteSmoke;
+            btnSales.FlatAppearance.MouseOverBackColor = Color.Pink;
+            btnSales.FlatStyle = FlatStyle.Flat;
+            btnSales.Font = new Font("Snap ITC", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSales.Location = new Point(583, 224);
             btnSales.Name = "btnSales";
-            btnSales.Size = new Size(156, 73);
+            btnSales.Size = new Size(248, 203);
             btnSales.TabIndex = 1;
-            btnSales.Text = "כניסת קופאי";
+            btnSales.Text = "להשכרת שמלות";
             btnSales.UseVisualStyleBackColor = true;
+            btnSales.Click += btnSales_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Snap ITC", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.RosyBrown;
+            label1.Location = new Point(559, 89);
+            label1.Name = "label1";
+            label1.Size = new Size(419, 57);
+            label1.TabIndex = 2;
+            label1.Text = "Dress Boutique";
+            label1.Click += label1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(934, 565);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1723, 920);
+            Controls.Add(label1);
             Controls.Add(btnSales);
             Controls.Add(btnAdmin);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button btnAdmin;
         private Button btnSales;
+        private Label label1;
     }
 }
