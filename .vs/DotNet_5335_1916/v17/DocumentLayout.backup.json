@@ -3,12 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\bl\\blimplementation\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\dalfacade\\do\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17DE13EE-2EE2-434C-8F5A-4F114725A880}|DalFacade\\DalFacade.csproj|solutionrelative:dalfacade\\do\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\dal-config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\dal-config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\frmmanagermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\frmmanagermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\salelistwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\salelistwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\saleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\saleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\productdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\customerlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\customerlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\cartform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\bl\\blimplementation\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\blimplementation\\customerimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\bl\\bo\\productinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,40 +87,16 @@
       "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bo\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bo\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\bl\\do\\dalnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\do\\dalnotfound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\customerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\productdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\productdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\frmmanagermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\frmmanagermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\frmmanagermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -104,10 +128,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\bl\\bo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FAAA84C-91EC-4F74-912D-828A2B30A9AD}|BL\\BL.csproj|solutionrelative:bl\\bo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\customerlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\customerlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\daltest\\initialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,14 +166,6 @@
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\saleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\saleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\saleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\salelistwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\salelistwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\salelistwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\salelistwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -172,10 +184,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\daltest\\daltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8BD7ABD6-BE5C-47FD-92E7-93D617E21B1C}|DalTest\\DalTest.csproj|solutionrelative:daltest\\daltest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\productlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\customerlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -217,11 +225,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 130,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 40,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "ProductForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductForm.Designer.cs",
               "RelativeDocumentMoniker": "UI\\ProductForm.Designer.cs",
@@ -235,13 +243,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CartForm.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CartForm.cs",
               "RelativeDocumentMoniker": "UI\\CartForm.cs",
-              "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CartForm.cs*",
-              "RelativeToolTip": "UI\\CartForm.cs*",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAC0AAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CartForm.cs",
+              "RelativeToolTip": "UI\\CartForm.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAiwAMBAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T16:29:46.556Z",
               "IsPinned": true,
@@ -249,13 +257,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BlImplementation\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\CustomerImplementation.cs",
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BlImplementation\\CustomerImplementation.cs",
               "RelativeToolTip": "BL\\BlImplementation\\CustomerImplementation.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAswD4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T17:44:53.55Z",
               "IsPinned": true,
@@ -271,7 +279,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 7,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalFacade\\DO\\Enums.cs",
+              "RelativeDocumentMoniker": "DalFacade\\DO\\Enums.cs",
+              "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalFacade\\DO\\Enums.cs",
+              "RelativeToolTip": "DalFacade\\DO\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T13:50:35.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dal-config.xml",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\dal-config.xml",
+              "RelativeDocumentMoniker": "UI\\dal-config.xml",
+              "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\dal-config.xml",
+              "RelativeToolTip": "UI\\dal-config.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-03T13:10:16.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalList\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "DalList\\CustomerImplementation.cs",
@@ -279,12 +313,11 @@
               "RelativeToolTip": "DalList\\CustomerImplementation.cs",
               "ViewState": "AgIAAHcAAAAAAAAAAIBZwH0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T21:23:22.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T21:23:22.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "ProductInOrder.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BO\\ProductInOrder.cs",
               "RelativeDocumentMoniker": "BL\\BO\\ProductInOrder.cs",
@@ -292,12 +325,11 @@
               "RelativeToolTip": "BL\\BO\\ProductInOrder.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAawBAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T21:19:13.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T21:19:13.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "Tools.cs",
               "DocumentMoniker": "C:\\Users\\1\\AppData\\Local\\SourceServer\\602955f8c7fab5ec2fcfb7dc4c036053a6132f8c3d926c13ae63f6adf83fb5c1\\BL\\BO\\Tools.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\602955f8c7fab5ec2fcfb7dc4c036053a6132f8c3d926c13ae63f6adf83fb5c1\\BL\\BO\\Tools.cs",
@@ -305,12 +337,11 @@
               "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\602955f8c7fab5ec2fcfb7dc4c036053a6132f8c3d926c13ae63f6adf83fb5c1\\BL\\BO\\Tools.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAgwC8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T20:40:58.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T20:40:58.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "ProductDetails.Designer.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductDetails.Designer.cs",
               "RelativeDocumentMoniker": "UI\\ProductDetails.Designer.cs",
@@ -323,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "ProductDetails.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductDetails.cs",
               "RelativeDocumentMoniker": "UI\\ProductDetails.cs",
@@ -336,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BlTest\\Program.cs",
               "RelativeDocumentMoniker": "BlTest\\Program.cs",
@@ -344,12 +375,11 @@
               "RelativeToolTip": "BlTest\\Program.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAArwD8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T12:44:47.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T12:44:47.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BO\\Product.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Product.cs",
@@ -357,12 +387,11 @@
               "RelativeToolTip": "BL\\BO\\Product.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAgwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T12:38:22.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T12:38:22.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "UI.csproj",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\UI.csproj",
               "RelativeDocumentMoniker": "UI\\UI.csproj",
@@ -375,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "ProductImplementation.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BlImplementation\\ProductImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\ProductImplementation.cs",
@@ -383,12 +412,11 @@
               "RelativeToolTip": "BL\\BlImplementation\\ProductImplementation.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAGBrwFoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T12:23:28.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T12:23:28.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "IProduct.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BlApi\\IProduct.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\IProduct.cs",
@@ -396,12 +424,11 @@
               "RelativeToolTip": "BL\\BlApi\\IProduct.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAqwBEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T12:23:26.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T12:23:26.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "IOrder.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BlApi\\IOrder.cs",
               "RelativeDocumentMoniker": "BL\\BlApi\\IOrder.cs",
@@ -409,12 +436,11 @@
               "RelativeToolTip": "BL\\BlApi\\IOrder.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAqwA8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T12:23:24.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T12:23:24.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BO\\Order.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Order.cs",
@@ -422,12 +448,11 @@
               "RelativeToolTip": "BL\\BO\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T12:19:13.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T12:19:13.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "OrderImplementation.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BlImplementation\\OrderImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\OrderImplementation.cs",
@@ -435,12 +460,11 @@
               "RelativeToolTip": "BL\\BlImplementation\\OrderImplementation.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAjwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T12:13:54.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T12:13:54.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "UI\\Form1.Designer.cs",
@@ -453,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "dal-config.xml",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\dal-config.xml",
               "RelativeDocumentMoniker": "dal-config.xml",
@@ -465,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "CartForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CartForm.Designer.cs",
               "RelativeDocumentMoniker": "UI\\CartForm.Designer.cs",
@@ -478,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "CustomerForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CustomerForm.Designer.cs",
               "RelativeDocumentMoniker": "UI\\CustomerForm.Designer.cs",
@@ -491,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "SaleListWindow.Designer.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\SaleListWindow.Designer.cs",
               "RelativeDocumentMoniker": "UI\\SaleListWindow.Designer.cs",
@@ -504,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "SaleForm.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\SaleForm.cs",
               "RelativeDocumentMoniker": "UI\\SaleForm.cs",
@@ -517,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "SaleListWindow.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\SaleListWindow.cs",
               "RelativeDocumentMoniker": "UI\\SaleListWindow.cs",
@@ -530,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BO\\Sale.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Sale.cs",
@@ -542,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "SaleImplementation.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BlImplementation\\SaleImplementation.cs",
               "RelativeDocumentMoniker": "BL\\BlImplementation\\SaleImplementation.cs",
@@ -554,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "CustomerImplementation.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalXml\\CustomerImplementation.cs",
               "RelativeDocumentMoniker": "DalXml\\CustomerImplementation.cs",
@@ -562,12 +586,11 @@
               "RelativeToolTip": "DalXml\\CustomerImplementation.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAIBZwDQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T19:04:55.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T19:04:55.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "Initialization.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalTest\\Initialization.cs",
               "RelativeDocumentMoniker": "DalTest\\Initialization.cs",
@@ -575,12 +598,11 @@
               "RelativeToolTip": "DalTest\\Initialization.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAgwFwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T19:03:26.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T19:03:26.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalTest\\Program.cs",
               "RelativeDocumentMoniker": "DalTest\\Program.cs",
@@ -592,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "DalTest.csproj",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalTest\\DalTest.csproj",
               "RelativeDocumentMoniker": "DalTest\\DalTest.csproj",
@@ -605,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalFacade\\DO\\Customer.cs",
               "RelativeDocumentMoniker": "DalFacade\\DO\\Customer.cs",
@@ -617,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "DalNotFound.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\DO\\DalNotFound.cs",
               "RelativeDocumentMoniker": "BL\\DO\\DalNotFound.cs",
@@ -625,12 +647,11 @@
               "RelativeToolTip": "BL\\DO\\DalNotFound.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T18:54:30.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T18:54:30.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "Tools.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BO\\Tools.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Tools.cs",
@@ -638,12 +659,11 @@
               "RelativeToolTip": "BL\\BO\\Tools.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T18:27:24.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T18:27:24.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BO\\Customer.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Customer.cs",
@@ -651,12 +671,11 @@
               "RelativeToolTip": "BL\\BO\\Customer.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T18:15:07.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T18:15:07.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "CustomerForm.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CustomerForm.cs",
               "RelativeDocumentMoniker": "UI\\CustomerForm.cs",
@@ -669,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "CustomerListForm.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CustomerListForm.cs",
               "RelativeDocumentMoniker": "UI\\CustomerListForm.cs",
@@ -682,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "ProductListForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductListForm.Designer.cs",
               "RelativeDocumentMoniker": "UI\\ProductListForm.Designer.cs",
@@ -695,20 +714,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BO\\Enums.cs",
               "RelativeDocumentMoniker": "BL\\BO\\Enums.cs",
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\BL\\BO\\Enums.cs",
               "RelativeToolTip": "BL\\BO\\Enums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-28T17:16:49.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "ProductForm.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductForm.cs",
               "RelativeDocumentMoniker": "UI\\ProductForm.cs",
@@ -721,20 +740,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "ProductListForm.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductListForm.cs",
               "RelativeDocumentMoniker": "UI\\ProductListForm.cs",
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductListForm.cs",
               "RelativeToolTip": "UI\\ProductListForm.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAuwCYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAH8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-28T16:28:54.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "frmManagerMenu.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\frmManagerMenu.cs",
               "RelativeDocumentMoniker": "UI\\frmManagerMenu.cs",
@@ -747,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "UI\\Form1.cs",
@@ -760,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "ProductDetails.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductDetails.cs",
               "RelativeDocumentMoniker": "UI\\ProductDetails.cs",
@@ -772,19 +791,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CartForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CartForm.cs",
               "RelativeDocumentMoniker": "UI\\CartForm.cs",
-              "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CartForm.cs [Design]*",
-              "RelativeToolTip": "UI\\CartForm.cs [Design]*",
+              "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CartForm.cs [Design]",
+              "RelativeToolTip": "UI\\CartForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T16:27:39.485Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 12,
               "Title": "SaleForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\SaleForm.cs",
               "RelativeDocumentMoniker": "UI\\SaleForm.cs",
@@ -796,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 11,
               "Title": "SaleListWindow.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\SaleListWindow.cs",
               "RelativeDocumentMoniker": "UI\\SaleListWindow.cs",
@@ -808,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "CustomerForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CustomerForm.cs",
               "RelativeDocumentMoniker": "UI\\CustomerForm.cs",
@@ -820,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 14,
               "Title": "CustomerListForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CustomerListForm.cs",
               "RelativeDocumentMoniker": "UI\\CustomerListForm.cs",
@@ -832,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "ProductListForm.resx",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductListForm.resx",
               "RelativeDocumentMoniker": "UI\\ProductListForm.resx",
@@ -844,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "ProductForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductForm.cs",
               "RelativeDocumentMoniker": "UI\\ProductForm.cs",
@@ -856,7 +875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 4,
               "Title": "ProductListForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductListForm.cs",
               "RelativeDocumentMoniker": "UI\\ProductListForm.cs",
@@ -868,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "UI\\Form1.cs",
@@ -880,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 10,
               "Title": "frmManagerMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\frmManagerMenu.cs",
               "RelativeDocumentMoniker": "UI\\frmManagerMenu.cs",

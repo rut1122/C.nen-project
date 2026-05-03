@@ -36,27 +36,31 @@
             // 
             // btnAdmin
             // 
-            btnAdmin.FlatAppearance.BorderColor = Color.WhiteSmoke;
-            btnAdmin.FlatAppearance.MouseOverBackColor = Color.Pink;
+            btnAdmin.BackColor = Color.White;
+            btnAdmin.FlatAppearance.BorderSize = 0;
+            btnAdmin.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnAdmin.FlatAppearance.MouseOverBackColor = Color.MistyRose;
             btnAdmin.FlatStyle = FlatStyle.Flat;
             btnAdmin.Font = new Font("Snap ITC", 16F, FontStyle.Bold);
-            btnAdmin.Location = new Point(980, 452);
+            btnAdmin.Location = new Point(1047, 376);
+            btnAdmin.Margin = new Padding(0);
             btnAdmin.Name = "btnAdmin";
-            btnAdmin.Size = new Size(278, 203);
+            btnAdmin.Size = new Size(279, 203);
             btnAdmin.TabIndex = 0;
             btnAdmin.Text = "לניהול המלאי";
-            btnAdmin.UseVisualStyleBackColor = true;
+            btnAdmin.UseVisualStyleBackColor = false;
             btnAdmin.Click += button1_Click;
             // 
             // btnSales
             // 
-            btnSales.FlatAppearance.BorderColor = Color.WhiteSmoke;
-            btnSales.FlatAppearance.MouseOverBackColor = Color.Pink;
+            btnSales.FlatAppearance.BorderSize = 0;
+            btnSales.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnSales.FlatAppearance.MouseOverBackColor = Color.MistyRose;
             btnSales.FlatStyle = FlatStyle.Flat;
             btnSales.Font = new Font("Snap ITC", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSales.Location = new Point(583, 224);
+            btnSales.Location = new Point(711, 376);
             btnSales.Name = "btnSales";
-            btnSales.Size = new Size(248, 203);
+            btnSales.Size = new Size(254, 203);
             btnSales.TabIndex = 1;
             btnSales.Text = "להשכרת שמלות";
             btnSales.UseVisualStyleBackColor = true;
@@ -67,7 +71,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Snap ITC", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.RosyBrown;
-            label1.Location = new Point(559, 89);
+            label1.Location = new Point(780, 91);
             label1.Name = "label1";
             label1.Size = new Size(419, 57);
             label1.TabIndex = 2;

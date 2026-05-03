@@ -37,39 +37,64 @@
             // 
             // button1
             // 
-            button1.Location = new Point(511, 53);
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button1.FlatAppearance.MouseOverBackColor = Color.MistyRose;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Tahoma", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.IndianRed;
+            button1.Location = new Point(864, 192);
+            button1.Margin = new Padding(0);
             button1.Name = "button1";
-            button1.Size = new Size(150, 73);
+            button1.Size = new Size(195, 128);
             button1.TabIndex = 0;
-            button1.Text = "ניהול מוצרים";
+            button1.Text = " מוצרים      👗 ";
+            button1.TextImageRelation = TextImageRelation.ImageAboveText;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(511, 147);
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button2.FlatAppearance.MouseOverBackColor = Color.MistyRose;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Tahoma", 16.2F, FontStyle.Bold);
+            button2.ForeColor = Color.IndianRed;
+            button2.Location = new Point(864, 497);
             button2.Name = "button2";
-            button2.Size = new Size(150, 77);
+            button2.Size = new Size(195, 128);
             button2.TabIndex = 1;
-            button2.Text = "ניהול לקוחות";
+            button2.Text = "   לקוחות  👩";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(511, 242);
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button3.FlatAppearance.MouseOverBackColor = Color.MistyRose;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Tahoma", 16.2F, FontStyle.Bold);
+            button3.ForeColor = Color.IndianRed;
+            button3.Location = new Point(864, 343);
             button3.Name = "button3";
-            button3.Size = new Size(150, 81);
+            button3.Size = new Size(195, 128);
             button3.TabIndex = 2;
-            button3.Text = "ניהול מבצעים";
+            button3.Text = "מבצעים    📆";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
             // button4
             // 
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatAppearance.MouseOverBackColor = Color.White;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Tahoma", 16.2F, FontStyle.Bold);
+            button4.ForeColor = Color.IndianRed;
             button4.Location = new Point(79, 30);
             button4.Name = "button4";
-            button4.Size = new Size(94, 29);
+            button4.Size = new Size(140, 96);
             button4.TabIndex = 3;
             button4.Text = "חזרה";
             button4.UseVisualStyleBackColor = true;
@@ -81,7 +106,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1106, 625);
+            ClientSize = new Size(1475, 871);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);

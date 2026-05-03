@@ -61,8 +61,6 @@ internal class CustomerImplementation : ICustomer
         catch (DO.DalNotFound ex)
         { throw new BO.BlNotExistsException("the customer not found", ex); }
     }
-
-
     public IEnumerable<BO.Customer> ReadAll(Func<BO.Customer, bool>? filter = null)
     {
         

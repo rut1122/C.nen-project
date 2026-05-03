@@ -55,7 +55,7 @@
             btnSave.TabIndex = 3;
             btnSave.Text = "שמור";
             btnSave.UseVisualStyleBackColor = true;
-            btnSave.Click += btnSave_Click; // קישור לאירוע הלחיצה
+            btnSave.Click += btnSave_Click;
             // 
             // lblId
             // 
@@ -71,7 +71,7 @@
             lblProductName.AutoSize = true;
             lblProductName.Location = new Point(30, 73);
             lblProductName.Name = "lblProductName";
-            lblProductName.Size = new Size(78, 20);
+            lblProductName.Size = new Size(69, 20);
             lblProductName.TabIndex = 5;
             lblProductName.Text = "שם מוצר:";
             // 
@@ -80,7 +80,7 @@
             lblPrice.AutoSize = true;
             lblPrice.Location = new Point(30, 113);
             lblPrice.Name = "lblPrice";
-            lblPrice.Size = new Size(45, 20);
+            lblPrice.Size = new Size(44, 20);
             lblPrice.TabIndex = 6;
             lblPrice.Text = "מחיר:";
             // 
@@ -88,7 +88,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(400, 250);
+            ClientSize = new Size(480, 320);
             Controls.Add(lblPrice);
             Controls.Add(lblProductName);
             Controls.Add(lblId);

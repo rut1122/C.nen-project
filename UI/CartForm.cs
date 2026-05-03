@@ -27,15 +27,6 @@ namespace UI
                 var products = bl.Product.ReadAll().ToList();
                 dgvProduct.DataSource = products;
 
-                // --- הסרת עמודות מיותרות שנוצרות אוטומטית ---
-                //// נחפש את העמודה המקורית שנוצרה מה-BO (למשל "בסל" או "IsChecked") ונסיר אותה
-                //if (dgvProduct.Columns.Contains("InCart")) // החליפי בשם השדה המדויק שיש לך ב-BO
-                //    dgvProduct.Columns["InCart"].Visible = false;
-
-                // או הסרה מוחלטת:
-                // dgvProduct.Columns.Remove("InCart");
-
-                // --- הוספת עמודת "בחר פריט" החדשה בתחילת הטבלה ---
                 if (dgvProduct.Columns.Contains("clmCheck"))
                     dgvProduct.Columns.Remove("clmCheck");
 
@@ -62,6 +53,12 @@ namespace UI
                 // שאר הגדרות העיצוב
                 dgvProduct.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
                 dgvProduct.AllowUserToAddRows = false;
+
+                // טעינת הקטגוריות מה-Enum
+                cmbCategory.DataSource = Enum.GetValues(typeof(DO.Category));
+
+                // מניעת בחירה אוטומטית בפריט הראשון (כדי שיוצגו כל המוצרים בהתחלה)
+                cmbCategory.SelectedIndex = -1;
 
                 LoadCustomersToCombo();
             }
@@ -232,24 +229,43 @@ namespace UI
         //פונקציית סינון משולבת (ID+קטגוריה)
         private void ApplyFilters()
         {
-            var allProducts = bl.Product.ReadAll();
-
-            // 1. סינון לפי ID או שם (מתיבת הטקסט)
-            if (!string.IsNullOrWhiteSpace(txtSearch.Text))
+            try
             {
-                string search = txtSearch.Text.ToLower();
-                allProducts = allProducts.Where(p => p.Id.ToString().Contains(search) ||
-                                 p.ProductName.ToLower().Contains(search));
-            }
+                // שליפת כל המוצרים מהשכבה הלוגית
+                var allProducts = bl.Product.ReadAll();
 
-            if (cmbCategory.SelectedIndex != -1)
+                // 1. סינון לפי קטגוריה (מתוך ה-ComboBox)
+                if (cmbCategory.SelectedItem != null && cmbCategory.SelectedIndex != -1)
+                {
+                    var selectedCategory = (BL.BO.Category)cmbCategory.SelectedItem;
+                    allProducts = allProducts.Where(p => p.ProductCategory == selectedCategory);
+                }
+
+                // 2. סינון לפי טקסט חופשי (ID, שם, מחיר או קטגוריה כטקסט)
+                if (!string.IsNullOrWhiteSpace(txtSearch.Text))
+                {
+                    string search = txtSearch.Text.Trim().ToLower();
+
+                    allProducts = allProducts.Where(p =>
+                        p.Id.ToString().Contains(search) ||
+                        (p.ProductName != null && p.ProductName.ToLower().Contains(search)) ||
+                        p.Price.ToString().Contains(search) ||
+                        (p.ProductCategory.ToString().ToLower().Contains(search))
+                    );
+                }
+
+                // עדכון ה-DataSource של הטבלה
+                dgvProduct.DataSource = allProducts.ToList();
+
+                // שמירה על עיצוב הטבלה והסתרת עמודות טכניות
+                if (dgvProduct.Columns.Contains("InCart"))
+                    dgvProduct.Columns["InCart"].Visible = false;
+            }
+            catch (Exception ex)
             {
-                string selectedCatString = cmbCategory.SelectedItem.ToString();
-
-                allProducts = allProducts.Where(p => p.ProductCategory.ToString() == selectedCatString);
+                // הצגת הודעה שקטה במקרה של שגיאה
+                MessageBox.Show("שגיאה בביצוע החיפוש: " + ex.Message, "עדכון", MessageBoxButtons.OK, MessageBoxIcon.None);
             }
-
-            dgvProduct.DataSource = allProducts.ToList();
         }
 
         // פונקציה להצגת פרטי מוצר

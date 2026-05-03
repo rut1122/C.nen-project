@@ -101,7 +101,7 @@ namespace UI
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(898, 562);
             Controls.Add(button1);
             Controls.Add(delete);
             Controls.Add(updeate);

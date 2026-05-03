@@ -110,7 +110,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1044, 611);
             Controls.Add(txtSearchById);
             Controls.Add(Label);
             Controls.Add(btnDeleteCustomer);
