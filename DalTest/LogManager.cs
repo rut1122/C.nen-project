@@ -57,12 +57,10 @@ namespace DalTest
                 writer.WriteLine(mesToWhrite);
             }
         }
-        //מוחק את התיקיה חוץ מהחודשיים האחרונים
         public static void CleanLog()
         {
             //אם התיקיה לא קיימת
             if (!Directory.Exists(GetFolderPath())) return;
-            //אם יש תיקיה ניצור מערך של כל הקבצים בתיקיה
             string[] files = Directory.GetFiles(GetFolderPath());
 
             DateTime endDate = DateTime.Now.AddMonths(-2);
@@ -72,14 +70,13 @@ namespace DalTest
                 //אם זמן ההווצרות שלו קטן מהתאריך היעד
                 if (fileInfo.CreationTime < endDate)
                 {
-                    //נמחק אותו
+                    // מוחק
                     try
                     {
                         fileInfo.Delete();
                     }
                     catch
                     {
-                        // אם הקובץ פתוח כרגע בתוכנית אחרת, נתעלם מהשגיאה ונמשיך}
                     }
                 }
 

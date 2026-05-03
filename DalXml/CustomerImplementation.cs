@@ -9,7 +9,6 @@ namespace Dal
 {
     internal class CustomerImplementation : ICustomer
     {
-        // שימי לב לנתיב - ודאי שהקבצים בתיקיית xml הם בסיומת .xml ולא .xml.txt
         private static string path = @"..\xml\customer.xml";
 
         const string CUSTOMER = "Customer";

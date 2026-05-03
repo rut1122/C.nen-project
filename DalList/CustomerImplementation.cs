@@ -5,40 +5,36 @@ using System.Reflection;
 using Tools;
 public class CustomerImplementation :ICustomer
 {
-    // 1. Create - הוספת לקוח חדש
+    //    מוסיף לקוח חדש
 
     public int Create(Customer item)
     {
-        // 1. הגדרת משתנים אוטומטיים לשם הפרויקט והפונקציה
+        //  הגדרת משתנים אוטומטיים לשם הפרויקט והפונקציה
         string project = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         string funcName = MethodBase.GetCurrentMethod().Name;
 
-        // 2. רישום לוג בתחילת הפונקציה
+        //  רישום לוג בתחילת הפונקציה
         LogManager.WriteToLog(project, funcName, $"Start creating new customer with ID: {item.id}");
 
         //     בדיקה אם כבר קיים לקוח עם אותו מזהה
         if (DataSource.Customers.Any(c => c != null && c.id == item.id))
         {
-            // 3. רישום לוג במקרה של שגיאה (מקום משמעותי)
             LogManager.WriteToLog(project, funcName, $"Error: Customer with ID {item.id} already exists");
             throw new Exceptions.DalIDExists($"customer with id: {item.id} already exists");
         }
 
-        //    // הוספת הלקוח כמו שהוא (כי ה-ID מגיע מהמשתמש)
         DataSource.Customers.Add(item);
 
-        // 4. רישום לוג לפני ה-return (סיום הפונקציה)
         LogManager.WriteToLog(project, funcName, $"Finished successfully: Customer {item.id} added");
         return item.id;
     }
 
 
 
-    // 2. Read - שליפת לקוח בודד
-    // 2. Read - שליפת לקוח בודד לפי תנאי
+    // Read - שליפת לקוח בודד
+    //  Read - שליפת לקוח בודד לפי תנאי
     public Customer? Read(Func<Customer, bool> filter)
     {
-        // הוסיפי את זה גם כאן:
         string project = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         string funcName = MethodBase.GetCurrentMethod().Name;
 
@@ -71,7 +67,7 @@ public class CustomerImplementation :ICustomer
         LogManager.WriteToLog(project, funcName, $"Finished successfully: Customer {id} retrieved");
         return customer;
     }
-    // 3. ReadAll - שליפת כל הלקוחות
+    //  ReadAll - שליפת כל הלקוחות
     public IEnumerable<Customer?> ReadAll(Func<Customer, bool>? filter = null)
     {
         string project = MethodBase.GetCurrentMethod().DeclaringType.FullName;
@@ -89,7 +85,7 @@ public class CustomerImplementation :ICustomer
         return result;
     }
 
-    // 4. Update - עדכון פרטי לקוח
+    //  Update - עדכון פרטי לקוח
     public void Update(Customer item)
     {
         string project = MethodBase.GetCurrentMethod().DeclaringType.FullName;
@@ -108,7 +104,7 @@ public class CustomerImplementation :ICustomer
         LogManager.WriteToLog(project, funcName, $"Finished successfully: Customer {item.id} updated");
     }
 
-    // 5. Delete - מחיקת לקוח
+    //  Delete - מחיקת לקוח
     public void Delete(int id)
     {
         string project = MethodBase.GetCurrentMethod().DeclaringType.FullName;

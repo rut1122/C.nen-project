@@ -16,7 +16,6 @@ namespace BlImplementation
         {
             try
             {
-                // אנחנו שולחים ל-DAL והוא כבר יחזיר לנו את ה-ID החדש שהוא ייצר
                 return _dal.Sale.Create(BO.Tools.ConvertSaleToDO(item));
             }
             catch (DO.Exceptions.DalIDExists ex)
@@ -55,7 +54,6 @@ namespace BlImplementation
         {
             try
             {
-                // המרה של ה-filter מ-BO ל-DO כדי שה-DAL יבין אותו
                 return BO.Tools.ConvertSaleToBO(_dal.Sale.Read(doSale => filter(BO.Tools.ConvertSaleToBO(doSale)!)));
             }
             catch (DO.DalNotFound ex)

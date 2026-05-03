@@ -10,7 +10,6 @@ using System.Collections.Generic;
 {
     internal class Program
     {
-        // שימוש ב-Property בלי סוגריים לפי התמונה האחרונה
         private static IBl s_bl = BlApi.Factory.Get;
 
         static void Main(string[] args)
@@ -46,7 +45,6 @@ using System.Collections.Generic;
                 }
                 catch (Exception ex)
                 {
-                    // מציג את השגיאה מה-BL בצורה ברורה בלי לקרוס
                     Console.WriteLine($"\n[Error]: {ex.Message}");
                 }
 
@@ -57,7 +55,6 @@ using System.Collections.Generic;
         {
             Console.WriteLine("\n--- NEW ORDER STARTED ---");
 
-            // יצירת אובייקט זמני בזיכרון (דורש בנאי ריק ב-BO.Order)
             Order currentOrder = new Order
             {
                 Products = new List<ProductInOrder>(),
@@ -74,7 +71,6 @@ using System.Collections.Generic;
                 Console.Write("Enter Amount: ");
                 if (!int.TryParse(Console.ReadLine(), out int amount)) break;
 
-                // קריאה למתודה (סדר פרמטרים: ID, כמות, הזמנה)
                 var salesUsed = s_bl.Order.AddPoductToOrder(pId, amount, currentOrder);
 
                 Console.WriteLine("\nItem(s) added successfully.");

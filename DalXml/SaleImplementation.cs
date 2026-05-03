@@ -8,8 +8,7 @@ namespace Dal
 {
     internal class SaleImplementation : ISale
     {
-        // כאן את צריכה לממש את כל המתודות של ICrud
-        // אני כותב לך את השלד כדי שהשגיאה ב-DalXml תיעלם
+       //מימוש מתדודות ICRUD
 
         public int Create(DO.Sale item)
         {

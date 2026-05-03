@@ -10,13 +10,12 @@ namespace Dal;
 
 internal class ProductImplementation : IProduct
 {
-    // הגדרתי פה את הנתיב לקובץ ה-XML בתיקיית הנתונים שלנו
     readonly string s_products_xml = @"..\xml\products.xml";
 
-    // פונקציית עזר קטנה שחוסכת לי מלא כתיבה - היא פשוט טוענת את כל המוצרים מהקובץ
+    // פונקציית עזר - טוענת את כל המוצרים מהקובץ
     private List<Product> LoadProducts()
     {
-        // בתכלס, אם הקובץ לא נמצא (נניח בהרצה הראשונה), אני מחזירה רשימה ריקה וזהו
+        //  אם הקובץ לא נמצא אני מחזירה רשימה ריקה 
         if (!File.Exists(s_products_xml)) return new List<Product>();
 
         try
@@ -44,21 +43,6 @@ internal class ProductImplementation : IProduct
 
     // --- מימוש ה-CRUD ---
 
-    //public int Create(Product item)
-    //{
-    //    //אני שואבת את כל הרשימה הקיימת מה - XML
-    //    //List<Product> products = LoadProducts();
-
-    //    //בודקת שאין כבר מוצר עם אותו ID, חבל שיהיו כפילויות שיבלבלו אותנו
-    //    //if (products.Any(p => p.id == item.id))
-    //    //    throw new Exception($"Product with ID {item.id} already exists");
-
-    //    //מוסיפה את הפריט החדש לרשימה ומעדכנת את הקובץ בבת אחת
-    //    //products.Add(item);
-    //    //SaveProducts(products);
-    //    //return item.id;
-
-    //}
     public int Create(Product item)
     {
         // 1. קריאת ה-ID הבא מהקובץ
@@ -84,13 +68,12 @@ internal class ProductImplementation : IProduct
 
     public Product? Read(int id)
     {
-        // פשוט חיפוש מהיר ברשימה לפי ה-ID שקיבלנו
+        //  חיפוש מהיר ברשימה לפי ה-ID שקיבלנו
         return LoadProducts().FirstOrDefault(p => p.id == id);
     }
 
     public Product? Read(Func<Product, bool> filter)
     {
-        // כאן זה חיפוש גמיש יותר לפי מה שהמשתמש ביקש לסנן
         return LoadProducts().FirstOrDefault(filter);
     }
 
@@ -104,21 +87,21 @@ internal class ProductImplementation : IProduct
 
     public void Update(Product item)
     {
-        // אני מוצאת את המיקום (האינדקס) של המוצר שצריך לעדכן
+        //  מוצא את המיקום (האינדקס) של המוצר שצריך לעדכן
         List<Product> products = LoadProducts();
         int index = products.FindIndex(p => p.id == item.id);
 
         if (index == -1)
             throw new Exception($"Product with ID {item.id} not found");
 
-        // בעיקרון, בשיטה הזו אני פשוט מחליפה את כל האובייקט הישן בחדש
+        // מחליפ את כל האובייקט הישן בחדש
         products[index] = item;
         SaveProducts(products);
     }
 
     public void Delete(int id)
     {
-        // מוודאת שהמוצר באמת שם, ואז מעיפה אותו מהרשימה ושומרת
+        // מוודאת שהמוצר באמת שם,מוציאה אותו מהרשימה ושומרת
         List<Product> products = LoadProducts();
         Product? prod = products.FirstOrDefault(p => p.id == id);
 

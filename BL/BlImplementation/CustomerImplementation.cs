@@ -23,7 +23,7 @@ internal class CustomerImplementation : ICustomer
         }
         catch (DO.Exceptions.DalIDExists ex)
         {
-            throw new BO.BlExistsException($"customer with id {item.Id} is already exist",ex);
+            throw new BO.BlExistsException($"customer with id {item.Id} is already exist", ex);
         }
 
     }
@@ -65,12 +65,12 @@ internal class CustomerImplementation : ICustomer
 
     public IEnumerable<BO.Customer> ReadAll(Func<BO.Customer, bool>? filter = null)
     {
-        
 
-            var customers = _dal.Customer.ReadAll()
-                            .Select(doCust => BO.Tools.ConvertCustomerToBO(doCust)!);
 
-            //return filter==null?customers:customers.Where(filter);
+        var customers = _dal.Customer.ReadAll()
+                        .Select(doCust => BO.Tools.ConvertCustomerToBO(doCust)!);
+
+        //return filter==null?customers:customers.Where(filter);
         return filter == null ? customers : customers.Where(p => p != null && filter(p));
     }
 

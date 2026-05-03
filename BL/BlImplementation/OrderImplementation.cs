@@ -15,21 +15,20 @@ namespace BlImplementation
         {
             var now = DateTime.Now;
 
-            // 1. שלפי את כל המבצעים שבתוקף עבור המוצר (בלי לבדוק כמות עדיין!)
+            // שלפי את כל המבצעים שבתוקף עבור המוצר (בלי לבדוק כמות עדיין!)
             var salesQuery = from s in _dal.Sale.ReadAll()
                              where s.productId == product.Id
                              && s.beginSale <= now
                              && (s.endSale == null || s.endSale >= now)
                              select s;
 
-            // 2. סינון מועדון
+            // סינון מועדון
             if (!isIsClubMember)
             {
                 salesQuery = salesQuery.Where(s => !s.onlyClub);
             }
 
-            // 3. עדכון ה-DEBUG (עכשיו הוא ימצא את המבצע!)
-            // במקום שורת ה-DEBUG הקודמת
+            //debug
             var allSales = _dal.Sale.ReadAll().ToList();
             Console.WriteLine($"--- DEBUG DAL CHECK ---");
             Console.WriteLine($"Looking for Product ID: {product.Id}");
@@ -39,14 +38,14 @@ namespace BlImplementation
             }
             Console.WriteLine($"Found {salesQuery.Count()} matches after filtering.");
             Console.WriteLine($"------------------------");
-            // 4. המרה ושמירה במוצר
+            //המרה ושמירה במוצר
             product.SaleList = salesQuery
                 .OrderBy(s => s.salePrice)
                 .Select(s => BO.Tools.ConvertSaleToProductInsale(s))
                 .ToList();
         }
 
-        // --- 2. חישוב מחיר סופי למוצר (כולל כפל מבצעים) ---
+        //  חישוב מחיר סופי למוצר (כולל כפל מבצעים)
         public void CalcTotalPriceForProduct(ProductInOrder product)
         {
             int remainingCount = product.Amount;
@@ -74,7 +73,7 @@ namespace BlImplementation
             product.FinalPrice = totalPrice;
         }
 
-        // --- 3. חישוב מחיר כולל להזמנה ---
+        //  חישוב מחיר כולל להזמנה
         public void CalcTotalPrice(BO.Order order)
         {
             if (order?.Products != null)
@@ -83,7 +82,7 @@ namespace BlImplementation
             }
         }
 
-        // --- 4. הוספת מוצר לסל (הזמנה) ---
+        // הוספת מוצר לסל (הזמנה)
         public List<SaleInProduct> AddPoductToOrder(int productId, int amount, BO.Order order)
         {
             try
@@ -93,8 +92,7 @@ namespace BlImplementation
 
                 order.Products ??= new List<ProductInOrder>();
                 var existingProduct = order.Products.FirstOrDefault(p => p.Id == productId);
-
-                // בדיקת מלאי: amount מייצג את הכמות הסופית הרצויה בסל
+                //מציג את הכמות הסופית ובודק אם יש במלאי
                 if (doProduct.amount < amount)
                 {
                     throw new BO.BlNotValidInputException($"Not enough in stock. Only {doProduct.amount} available.");
@@ -102,18 +100,18 @@ namespace BlImplementation
 
                 if (existingProduct != null)
                 {
-                    // עדכון לכמות הסופית
+                  
                     existingProduct.Amount = amount;
                 }
                 else
                 {
-                    // הוספת מוצר חדש לסל
+                    // הוספת מוצר חדש 
                     existingProduct = new ProductInOrder(doProduct.id, doProduct.productName,
                         doProduct.price, amount, new List<SaleInProduct>(), 0);
                     order.Products.Add(existingProduct);
                 }
 
-                // חישובים ורענון
+                // מאפס
                 SearchSaleForProduct(existingProduct, order.IsClubMember);
                 CalcTotalPriceForProduct(existingProduct);
                 CalcTotalPrice(order);
@@ -126,15 +124,14 @@ namespace BlImplementation
             }
         }
 
-        // --- 5. ביצוע הזמנה סופי (עדכון המדפים ב-DAL) ---
+        //  ביצוע הזמנה סופי ועידכון המפדים -DAL
         public void DoOrder(BO.Order order)
         {
             if (order == null) throw new BO.BlNotValidInputException("Order cannot be null");
 
             if (order.Products == null || !order.Products.Any())
                 throw new BO.BlNotValidInputException("Cannot process an empty order.");
-
-            // מעבר על כל המוצרים שנבחרו והפחתתם מהמלאי האמיתי
+            //עובר על המוצרים שנבחרו ומוריגד מהמלאי שקיים לי
             foreach (var item in order.Products)
             {
                 try
@@ -162,7 +159,6 @@ namespace BlImplementation
                     throw new BO.BlNotExistsException($"Product {item.Id} not found in database during final checkout", ex);
                 }
             }
-            // הערה: כאן כדאי להוסיף קריאה ל-_dal.Order.Create(order) כדי לשמור את היסטוריית ההזמנה
         }
     }
 }

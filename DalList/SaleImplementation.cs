@@ -8,11 +8,9 @@ public class SaleImplementation : ISale
 {
     public int Create(Sale item)
     {
-        // 1. הגדרת משתני Reflection
         string project = MethodBase.GetCurrentMethod().DeclaringType.FullName;
         string funcName = MethodBase.GetCurrentMethod().Name;
 
-        // 2. לוג התחלה
         LogManager.WriteToLog(project, funcName, "Start creating new sale");
 
         if (DataSource.Sales.Any(s => s != null && s.id == item.id))
@@ -23,12 +21,10 @@ public class SaleImplementation : ISale
 
         int newId = DataSource.Config.SaleCode;
 
-        // שימוש ב-nsale במקום newItem כפי שביקשת
         Sale nsale = item with { id = newId };
 
         DataSource.Sales.Add(nsale);
 
-        // 3. לוג סיום מוצלח
         LogManager.WriteToLog(project, funcName, $"Finished successfully: Sale {newId} created");
         return newId;
     }

@@ -11,7 +11,6 @@ public class Initialization
     {
         s_dal = DalApi.Factory.Get;
 
-        // סדר קריטי: קודם מוצרים כדי שיהיו IDs ברשימה, אז לקוחות ומבצעים
         CreateProduct();
         CreateCustomer();
         CreateSale();
