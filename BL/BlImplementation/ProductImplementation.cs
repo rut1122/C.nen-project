@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using BL.BO;
 
 using BlApi;
-using BO; // מוודא שזה מכיר את ProductInOrder
+using BO;
 
 namespace BlImplementation;
 
@@ -52,7 +52,6 @@ internal class ProductImplementation : IProduct
         }
     }
 
-    // שונה ל-BO.Product? כדי להתאים לממשק שלך
     public IEnumerable<BO.Product?> ReadAll(Func<BO.Product, bool>? filter = null)
     {
         var products = _dal.Product.ReadAll()
@@ -87,7 +86,6 @@ internal class ProductImplementation : IProduct
         }
     }
 
-    // מימוש מדויק לפי הממשק שלך: void ושם פרמטר IsClubMember
     public void IsValid(ProductInOrder product, bool IsClubMember)
     {
         if (product.Id <= 0)

@@ -20,7 +20,6 @@ public class ProductImplementation : IProduct
         }
 
         int newId = DataSource.Config.ProductCode;
-        // שימוש ב-nproduct כפי שביקשת
         Product nproduct = item with { id = newId };
         DataSource.Products.Add(nproduct);
 

@@ -12,7 +12,6 @@ namespace DalTest
         private static IDal s_dal = DalApi.Factory.Get;
 
 
-        //תפריט ראשי
         public static int PrintMainmenu()
         {
 
@@ -41,7 +40,7 @@ namespace DalTest
             }
             return choice1;
         }
-        //תפריט מוצר אחרי הקשה על 1 בתפריט ראשי
+        //תפריט מוצר אחרי הקשה על 1 בתפריט 
         private static void ProductMenu()
         {
             Console.WriteLine($"if you want to create press 1");
@@ -77,7 +76,7 @@ namespace DalTest
             }
         }
 
-        //תפריט לקוח אחרי הקשה על 2 בתפריט ראשי
+        //תפריט לקוח אחרי הקשה בתפריט הראשי
 
         private static void CustomerMenu()
         {
@@ -114,8 +113,7 @@ namespace DalTest
                     break;
             }
         }
-        //תפריט מוצר אחרי הקשה על 3 בתפריט ראשי
-
+        //תפריט מוצר אחרי הקשה בתפריט
         private static void SaleMenu()
         {
             Console.WriteLine($"if you want to create press 1");
@@ -177,21 +175,7 @@ namespace DalTest
 
         private static Customer AskCustomer(int code = 0)
         {
-            //Console.WriteLine("enter customer id:");
-            //int id;
-            //if (!int.TryParse(Console.ReadLine(), out id)) id = code;
-
-            //Console.WriteLine("enter name:");
-            //string name = Console.ReadLine() ?? "";
-
-            //Console.WriteLine("enter address:");
-            //string? address = Console.ReadLine();
-
-            //Console.WriteLine("enter phone:");
-            //int phone;
-            //if (!int.TryParse(Console.ReadLine(), out phone)) phone = 0;
-
-            //return new Customer(id, name, address, phone);
+            
             Console.WriteLine("enter customer id:");
             int id;
             if (!int.TryParse(Console.ReadLine(), out id)) id = code;
@@ -202,7 +186,6 @@ namespace DalTest
             Console.WriteLine("enter address:");
             string? address = Console.ReadLine();
 
-            // --- הוספה של קליטת אימייל ---
             Console.WriteLine("enter email:");
             string? email = Console.ReadLine();
 
@@ -210,23 +193,10 @@ namespace DalTest
             int phone;
             if (!int.TryParse(Console.ReadLine(), out phone)) phone = 0;
 
-            // שליחת 5 פרמטרים לבנאי לפי הסדר החדש ב-DO
             return new Customer(id, name, address, email, phone);
         }
 
-        //private static Customer AskCustomer(int code = 0)
-        //{
-        //    Console.WriteLine("enter customer");
-        //    int id = int.Parse(Console.ReadLine());
-        //    string name = Console.ReadLine();
-        //    string? adress = Console.ReadLine();
-        //    int phone = int.Parse(Console.ReadLine());
-        //    return new Customer(id, name, adress, phone);
-
-
-        //}
-        //קליטת פרטי מבצע
-        //כנ"ל
+       
         private static Sale AskSale(int code = 0)
         {
 
@@ -274,15 +244,7 @@ namespace DalTest
 
 
 
-        //    int id = int.Parse(Console.ReadLine());
-        //    int productId = int.Parse(Console.ReadLine());
-        //    int RequiredAmount = int.Parse(Console.ReadLine());
-        //    double salePrice = double.Parse(Console.ReadLine());
-        //    bool onlyClub = bool.Parse(Console.ReadLine());
-        //    DateTime beginSale = DateTime.Parse(Console.ReadLine());
-        //    DateTime? endSale = DateTime.Parse(Console.ReadLine());
-        //    return new Sale(id, productId, RequiredAmount, salePrice, onlyClub, beginSale, endSale);
-        //}
+        
 
         private static void AddProduct(int code = 0)
         {
@@ -300,7 +262,6 @@ namespace DalTest
             }
             catch (Exception ex)
             {
-                // למשל אם המזהה כבר קיים
                 LogManager.WriteToLog("DalTest", "AddProduct", ex.Message);
                 throw new Exceptions.DalIDExists("");
             }
@@ -343,14 +304,13 @@ namespace DalTest
                 Console.Write("enter product id to update: ");
                 if (!int.TryParse(Console.ReadLine(), out int id)) return;
 
-                // וידוא שהמוצר אכן קיים לפני שנבקש פרטים חדשים
+                // בודק שהמוצר באמת קיים לפני שנבקש פרטים חדשים
                 var existing = s_dal.Product.Read(id);
                 if (existing == null)
                     throw new Exception($"product  {id} doesnt exists.");
 
                 Console.WriteLine($"product datails : {existing}");
 
-                // קריאה ל-AskProduct עם ה-ID הקיים כדי לשמור עליו בעדכון
                 Product updatedProduct = AskProduct(id);
                 s_dal.Product.Update(updatedProduct);
 
@@ -366,7 +326,7 @@ namespace DalTest
         }
         private static void UpdateCustomer(int code = 0)
         {
-            int id = -1; // הגדרת המשתנה מחוץ ל-try כדי שיהיה נגיש ב-catch
+            int id = -1; 
             try
             {
                 Console.Write("Enter Customer ID to update: ");
@@ -382,7 +342,6 @@ namespace DalTest
             }
             catch (Exception ex)
             {
-                // חשוב: הלוג לפני ה-throw!
                 LogManager.WriteToLog("DalTest", "UpdateCustomer", ex.Message);
                 throw new Exceptions.DalIDNotExists($"id: {id} not exists");
             }
@@ -489,6 +448,4 @@ namespace DalTest
         }
     }
 }
-
-
 

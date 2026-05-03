@@ -40,7 +40,7 @@ namespace BO
             // הגנה: אם הלקוח שהגיע מה-DAL הוא null, נחזיר null
             if (customer == null) return null;
 
-            // שליחת הנתונים ישירות לבנאי של BO.Customer לפי הסדר המצוין בשגיאה:
+            // שליחת הנתונים ישירות לבנאי של BO
             // (int id, string name, string? address, string? email, int phone)
             return new BO.Customer(
                 customer.id,

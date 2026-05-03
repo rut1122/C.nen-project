@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tools
 {
+    //מנהל את הכתיבה ללוג
     public static class LogManager
     {
         private static string path = "Log";

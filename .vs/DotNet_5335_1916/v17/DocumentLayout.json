@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|c:\\users\\1\\desktop\\.net pro\\c.nen-project\\ui\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\ui\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{06E9B93F-9C6F-4DCD-817E-CA7771FC2F9E}|UI\\UI.csproj|solutionrelative:ui\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -233,7 +233,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 130,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -246,8 +246,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-28T17:19:16.249Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -274,34 +273,7 @@
               "ViewState": "AgIAAFAAAAAAAAAAAAAswD4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T17:44:53.55Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalXml\\ProductImplementation.cs",
-              "RelativeDocumentMoniker": "DalXml\\ProductImplementation.cs",
-              "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalXml\\ProductImplementation.cs",
-              "RelativeToolTip": "DalXml\\ProductImplementation.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T16:55:23.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SaleImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalXml\\SaleImplementation.cs",
-              "RelativeDocumentMoniker": "DalXml\\SaleImplementation.cs",
-              "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalXml\\SaleImplementation.cs",
-              "RelativeToolTip": "DalXml\\SaleImplementation.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwGwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T16:53:44.082Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -313,6 +285,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalXml\\ProductImplementation.cs",
+              "RelativeDocumentMoniker": "DalXml\\ProductImplementation.cs",
+              "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalXml\\ProductImplementation.cs",
+              "RelativeToolTip": "DalXml\\ProductImplementation.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T16:55:23.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaleImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalXml\\SaleImplementation.cs",
+              "RelativeDocumentMoniker": "DalXml\\SaleImplementation.cs",
+              "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalXml\\SaleImplementation.cs",
+              "RelativeToolTip": "DalXml\\SaleImplementation.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAIwGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T16:53:44.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\DalFacade\\DO\\Enums.cs",
@@ -321,8 +318,7 @@
               "RelativeToolTip": "DalFacade\\DO\\Enums.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T13:50:35.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T13:50:35.922Z"
             },
             {
               "$type": "Document",
@@ -334,8 +330,7 @@
               "RelativeToolTip": "UI\\dal-config.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-05-03T13:10:16.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T13:10:16.772Z"
             },
             {
               "$type": "Document",
@@ -383,8 +378,7 @@
               "RelativeToolTip": "UI\\ProductDetails.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T13:03:52.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T13:03:52.563Z"
             },
             {
               "$type": "Document",
@@ -433,8 +427,7 @@
               "RelativeToolTip": "UI\\UI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-30T12:28:49.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T12:28:49.72Z"
             },
             {
               "$type": "Document",
@@ -506,8 +499,7 @@
               "RelativeToolTip": "UI\\Form1.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAswBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T18:49:38.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T18:49:38.657Z"
             },
             {
               "$type": "Document",
@@ -531,8 +523,7 @@
               "RelativeToolTip": "UI\\CartForm.Designer.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAiwEIAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T16:27:56.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T16:27:56.097Z"
             },
             {
               "$type": "Document",
@@ -544,8 +535,7 @@
               "RelativeToolTip": "UI\\CustomerForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T16:22:36.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T16:22:36.902Z"
             },
             {
               "$type": "Document",
@@ -557,8 +547,7 @@
               "RelativeToolTip": "UI\\SaleListWindow.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T20:39:15.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T20:39:15.511Z"
             },
             {
               "$type": "Document",
@@ -620,8 +609,7 @@
               "RelativeToolTip": "DalXml\\CustomerImplementation.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAAADQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T19:04:55.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T19:04:55.476Z"
             },
             {
               "$type": "Document",
@@ -657,8 +645,7 @@
               "RelativeToolTip": "DalTest\\DalTest.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-28T19:01:01.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T19:01:01.061Z"
             },
             {
               "$type": "Document",
@@ -744,8 +731,7 @@
               "RelativeToolTip": "UI\\ProductListForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T17:34:59.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T17:34:59.736Z"
             },
             {
               "$type": "Document",
@@ -757,8 +743,7 @@
               "RelativeToolTip": "BL\\BO\\Enums.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T17:16:49.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T17:16:49.576Z"
             },
             {
               "$type": "Document",
@@ -821,8 +806,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductDetails.cs [Design]",
               "RelativeToolTip": "UI\\ProductDetails.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T12:56:27.945Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-30T12:56:27.945Z"
             },
             {
               "$type": "Document",
@@ -833,8 +817,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CartForm.cs [Design]",
               "RelativeToolTip": "UI\\CartForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T16:27:39.485Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-29T16:27:39.485Z"
             },
             {
               "$type": "Document",
@@ -845,8 +828,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\SaleForm.cs [Design]",
               "RelativeToolTip": "UI\\SaleForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T20:13:35.547Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-28T20:13:35.547Z"
             },
             {
               "$type": "Document",
@@ -857,8 +839,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\SaleListWindow.cs [Design]",
               "RelativeToolTip": "UI\\SaleListWindow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T20:04:30.732Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-28T20:04:30.732Z"
             },
             {
               "$type": "Document",
@@ -869,8 +850,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CustomerForm.cs [Design]",
               "RelativeToolTip": "UI\\CustomerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T18:05:22.451Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-28T18:05:22.451Z"
             },
             {
               "$type": "Document",
@@ -881,8 +861,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\CustomerListForm.cs [Design]",
               "RelativeToolTip": "UI\\CustomerListForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T17:43:45.161Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-28T17:43:45.161Z"
             },
             {
               "$type": "Document",
@@ -893,8 +872,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductListForm.resx",
               "RelativeToolTip": "UI\\ProductListForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-04-28T17:29:26.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-28T17:29:26.342Z"
             },
             {
               "$type": "Document",
@@ -905,8 +883,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductForm.cs [Design]",
               "RelativeToolTip": "UI\\ProductForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T16:30:52.132Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-28T16:30:52.132Z"
             },
             {
               "$type": "Document",
@@ -917,8 +894,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\ProductListForm.cs [Design]",
               "RelativeToolTip": "UI\\ProductListForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T16:28:05.017Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-28T16:28:05.017Z"
             },
             {
               "$type": "Document",
@@ -929,8 +905,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\Form1.cs [Design]",
               "RelativeToolTip": "UI\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T15:44:27.506Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-28T15:44:27.506Z"
             },
             {
               "$type": "Document",
@@ -941,8 +916,7 @@
               "ToolTip": "C:\\Users\\1\\Desktop\\.NET PRO\\C.nen-project\\UI\\frmManagerMenu.cs [Design]",
               "RelativeToolTip": "UI\\frmManagerMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T15:42:41.263Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-28T15:42:41.263Z"
             }
           ]
         }

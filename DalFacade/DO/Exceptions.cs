@@ -3,7 +3,7 @@
 public class Exceptions
 {
     [Serializable]
-    // ID כבר קיים
+    // ID  קיים
     public class DalIDExists:Exception
     {
         public DalIDExists(string message) : base(message) { }
